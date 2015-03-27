@@ -1,5 +1,7 @@
 # About
 
+[![Join the chat at https://gitter.im/kbase/nextgen](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kbase/nextgen?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository is a collection point for KBase documents and code experiments (etc.) for the
 "next generation" of the KBase infrastructure.
 
