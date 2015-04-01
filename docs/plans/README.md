@@ -29,13 +29,20 @@ Once these modeling concepts are understood, we can move towards the Frankenstei
 
 ## Next year
 
-Some of this is still data-centric -- the problem is too big to put to rest in a couple of months -- but I think there are two things that will happen in the next year. First, the data modeling Frankenstein will start getting plugged in to the full system. Probably this will require parallel scientific service interfaces, that understand the new data types, and work on a smaller demonstration set (not the full production data). This transition will no doubt raise some issues, and we'll have to spend effort on them as they arise. Second, the "services" themselves will start to 
+The new data design will begin to be implemented as a parallel (second) system, that will for this time be deployed alongside the existing data needed by all the existing components. Members of the data team, and other teams as necessary, will be pulled in to do this once the design and initial prototypes are complete and approved. 
 
+Beyond June and for the rest of the year these other areas need to be addressed:
+* Methods - A clean interface for adding new functionality to KBase
+* Visualization - Similar in spirit to execution, allowing visualizations built by the community to be added as easily as they can currently be plugged into a vanilla Jupyter/IPython notebook
+* Execution - Related to the previous two, providing a single asynchronous interface for methods that are able to run on local backends, batch backends, cluster backends, etc. A crucial difficulty is that the heavyweight methods might need a specific execution environment. Another is that provenance should be consistent, and the mechanism for providing it as transparent as possible to the user and as easy to maintain for KBase itself, as possible.
+* Narrative UI - Rewriting much of the UI to live on top of the IPython3.0/Jupyter front-end, and refactoring the Docker container infrastructure to align better with the Jupyterhub backend.
 
+Not all of this will be possible, even pulling effort from multiple teams, in the one year time frame. The new requirements from the science teams will be used to guide the order of execution. In general, we need to make sure we agree on clean and useful interfaces _first_ before building the full back-end implementations. This will make it much easier to change implementations later.
 
 ## Three year span
 
-I am not sure I would believe anything very specific here.
+By this time, we want to have a far more robust and modular system from top to bottom. This is really the foundation we wanted at the last review, for data mining of annotations, references, etc. to gain new knowledge -- the raison d'etre of KBase, and something we should start on in this time span even if our initial approach is naive.
+* Scalability of the data system. Faster data imports, exports, searches, etc. KBase could also index data sets whose raw data is stored outside KBase.
 
 # References
 
