@@ -10,9 +10,9 @@ The data model is fundamental and is currently not serving our needs in the area
 
 #### Approach
 
-Adam's and other existing data principles documents ([1][PoDKB]) will be major inputs, but we want to work as bottom-up as possible in the first stages to make sure we do not build a baroque second system. The working process is to roughly alternate between short cycles, 1-3 days, of design and prototyping.
+Adam's and other existing data principles documents ([1][PoDKB], [2][KBS2]) will be major inputs, but we want to work as bottom-up as possible in the first stages to make sure we do not build a baroque second system. The working process is to roughly alternate between short cycles, 1-3 days, of design and prototyping.
 
-* Start with the abstract data model, using as a base some simple known scientific objects, such as assembly and maybe annotation. Include all aspects of the data touched on in Adam's [document][PoDKB], including metadata, provenance, and sharing.
+* Start with the abstract data model, using as a base some simple known scientific objects, such as assembly and maybe annotation. Include all aspects of the data touched on in the principles document ([1][PoDKB]), including metadata, provenance, and sharing.
     - Output: a vocabulary, design documents and diagrams.
 * Perform prototyping using some wire protocols. The prototypes should be in a few different technologies, so we can do a "bake-off" to determine which formats make the most sense. 
     - Output: Working code examples
@@ -46,4 +46,8 @@ By this time, we want to have a far more robust and modular system from top to b
 
 # References
 
-[PodKB]: https://docs.google.com/a/lbl.gov/document/d/1YY7JwAdQY2bLWZl-VtTPV_K9erA8Vkak5NdXOVUQavQ/edit "Principles of Data in KBase"
+1. [Principles of Data in KBase][PoDKB]
+2. [KBase data storage 2nd round requirements][KBS2]
+
+[PoDKB]: https://docs.google.com/a/lbl.gov/document/d/1YY7JwAdQY2bLWZl-VtTPV_K9erA8Vkak5NdXOVUQavQ/edit "Principles of Data in KBase"
+[KBS2]: https://docs.google.com/a/lbl.gov/document/d/1oNWIh8yCroBqqCvok2tt6Hbx-lz9uEnBqMdoC7Ws7zw/edit?usp=sharing
