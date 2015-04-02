@@ -4,7 +4,7 @@ This top-level document summarizes the data redesign. As some of the sub-section
 
 See also the list of [challenges](/docs/challenges/data.md) that motivate the redesign.
 
-## Information we need in objects
+## Information we need for each "object"
 
 * Object metadata
   - id (hash)
