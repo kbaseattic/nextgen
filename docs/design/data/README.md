@@ -2,6 +2,8 @@
 
 This top-level document summarizes the data redesign. As some of the sub-sections get longer and more involved with implementations, they will get moved into their own documents and links will be added.
 
+See also the list of [challenges](/docs/challenges/data.md) that motivate the redesign.
+
 ## Information we need in objects
 
 * Object metadata
