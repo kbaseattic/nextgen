@@ -18,6 +18,25 @@ See also the list of [challenges](/docs/challenges/data.md) that motivate the re
 * Provenance (computable) -- special metadata in addition to derived-from tree
 * Path, replacing current 'name' with: owner/project[/subprojects..]/name
 
+ASCII O/R diagram:
+```
+                               name   id      id           
+e.g., owner/project/../name     ^     ^       ^            
+              +                 |     |       |            
+              |                ++-----+--+ +--+---------+  
+           +--+---------+      |Reference| |Derived|from|  
+           | Path (name)|      ++--------+ ++-----------+  
+           +------------+     * ^           ^ 1+           
+                  ^--------+    |         +-+              
+                           |  1 |        1|                
+             +--------+ 1  |  1 +---------+1    *+------+  
+             |Metadata| <-------+  Object +----> |Datum |  
+             +--------+    |    ++-----+--+      +-----++  
+                           |   * |     | 1     1 |     | * 
+            +------------+ |     |     |         |     |   
+            | Provenance <-+   1 v     v 1     + v     v 1 
+            +------------+ 1   owner  id        value  type
+```
 ## Sharing
 
 Issue: When user Alice shares X with Bob, and Bob derives Y from X and shares Y with Carol, then in order to see the full provenance of Y the system needs to let Carol see X, whether or not Alice has shared it with her directly.
