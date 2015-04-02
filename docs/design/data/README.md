@@ -22,7 +22,7 @@ Issue: When user Alice shares X with Bob, and Bob derives Y from X and shares Y 
 
 Solution: Sharing is transitive across Derived-from links without regard to object permissions, so that in the example above Carol can always see X if she has permission to see Y. This preserves transparency. However, users have the option to do another kind of sharing, which we called "radius 1" but I would now call "non-transitive". If Alice shared X non-transitively with Bob, then Bob could create Y but could not share Y with anyone else.
 
-Put another way, imagine a `share(obj, person)` operation a `transitive` flag on an object. Then, the following sequence is legal:
+Put another way, imagine a `share(obj, person)` operation with a `transitive` flag on an object. Then, the following sequence is legal:
 
     Alice: x.transitive = True
     Alice: share(x, 'Bob')
