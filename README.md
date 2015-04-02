@@ -7,9 +7,11 @@ This repository is a collection point for KBase documents and code experiments (
 
 # Contents
 
-* `docs` - All documents
-  * `docs/challenges` - Compilation of major pain points in current architecture, grouped by high-level team
-* `diagrams/` - Architecture and design diagrams
+* [docs](docs/) - All documents
+  * [challenges](docs/challenges/) - Compilation of major pain points in current architecture, grouped by high-level team
+  * [plans](docs/plans/) - Plans of what should be done, when, and even maybe by whom
+  * [design](docs/design/) - Design documents for the new architecture
+* [diagrams](diagrams/) - Architecture and design diagrams
     * `diagrams/YYYY-MM-DD/*.graffle` - Omnigraffle source for diagrams, placed in directories by rough "era" at which they were created
     * `diagrams/YYYY-MM-DD/*.png` - Exported images for diagrams
 
@@ -17,4 +19,4 @@ Diagrams were created with Omnigraffle 6
 
 # License
 
-See `license.md` in this directory.
+See [license](license.md) in this directory.
