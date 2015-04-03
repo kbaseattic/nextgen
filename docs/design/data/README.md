@@ -38,6 +38,4 @@ But, the following sequence is not:
 
 Note that in this discussion, the "object" could be some collection of objects, e.g. a subpath of the Path described above. Also, individual people might be replaced by groups of people, or roles in a RBAC model.
 
-This was not discussed, but while writing this it occurred to me (Dan) that we could store the transitivity of sharing as a property of the object (or subpath) itself, rather than making this a property of each individual sharing. This would make it easier to preserve this property in copies, for example.
-
-We noted that all this sharing stuff is eminently circumventable by simply downloading the raw data.
+We noted that all this sharing stuff could be circumvented by downloading the raw data. You _could_ prevent download of the data as part of the sharing model, but it does mean that you have to go down a much more complicated path of defining individual policies for how data can be used, no just also shared with others.  But at least having the non-transitive share would tell your collaborator that they would need to circumvent your wishes to share the data, which yes bad users could do bad things, but the social aspect would help reinforce that.  I think this point in particular is worth talking to more people about.
