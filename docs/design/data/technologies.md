@@ -14,3 +14,4 @@ Laundry-list of possibly relevant technologies and projects.
     - [GraphX](https://spark.apache.org/docs/latest/graphx-programming-guide.html) - Apache Spark graph DB
     - [Neo4j](http://neo4j.com/) - Market segment leader?
     - [Titan](http://thinkaurelius.github.io/titan/) - Also pretty popular, I think
+    - [Bulbs](http://bulbflow.com/overview/)- Python Graph DB framework; runs over Neo4j or Rexster/Tinkerpop/Gremlin
