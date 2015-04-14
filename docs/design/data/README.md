@@ -18,7 +18,7 @@ See also the list of [challenges](/docs/challenges/data.md) that motivate the re
 * Provenance (computable) -- special metadata in addition to derived-from tree
 * Path, replacing current 'name' with: owner/project[/subprojects..]/name
 
-ASCII O/R diagram:
+ASCII ER diagram:
 ```
                                name   id      id           
 e.g., owner/project/../name     ^     ^       ^            
