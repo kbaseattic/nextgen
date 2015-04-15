@@ -4,6 +4,8 @@ This top-level document summarizes the data redesign. As some of the sub-section
 
 See also the list of [challenges](/docs/challenges/data.md) that motivate the redesign.
 
+A number of data design docs are also in the [data_api](https://github.com/kbase/data_api) repository.
+
 ## Information we need for each "object"
 
 * Object metadata
@@ -18,7 +20,7 @@ See also the list of [challenges](/docs/challenges/data.md) that motivate the re
 * Provenance (computable) -- special metadata in addition to derived-from tree
 * Path, replacing current 'name' with: owner/project[/subprojects..]/name
 
-ASCII O/R diagram:
+ASCII ER diagram:
 ```
                                name   id      id           
 e.g., owner/project/../name     ^     ^       ^            
