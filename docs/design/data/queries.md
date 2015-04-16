@@ -10,6 +10,7 @@ organize it.
 ## Near-term
 
 1. for this model, show me associated genomes
+    1. For this genome show me all models, model results, phenotypes, experiments
 2. how many genomes have at least one gene that produces this protein
 3. show me what connects to this model
 4. what can I do with a model
@@ -31,5 +32,12 @@ organize it.
     4. Data incompleteness (no source, domain, taxonomy for a genome)
 8. ability find features by various aliases
 9. ability to look at splice variants (cds->mRNA->locus)
-
+10. Find me all homologs of this protein/gene
+11. Find me all genes containing this sequence
+12. For this taxon, find me all genomes
+13. For this taxon, find me all related taxa with XX phylogenetic distance
+14. For this gene, find me all reactions to which it is related
+15. For this reaction, find me all genomes that encode a gene that is linked to it
+16. For this reaction, find me all models in which it is present. 
+17. For this biochemical, find me all reactions which use it and then all (meta)genomes that contain genes that link to these reactions. 
 ## Long-term
