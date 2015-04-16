@@ -1,8 +1,13 @@
 # Queries our data model should support
 
-## Top 20 queries
+Try to model the requirements of the system by listing the "top 20 queries".
 
-Try to model the requirements of the system by listing the top 20 queries
+Based on discussion on the Production Leads call on 4/16/2015, this is broken
+into near-term and long-term lists.
+This is not a closed document. Everyone is encouraged to add to this list, add details or questions, or help
+organize it.
+
+## Near-term
 
 1. for this model, show me associated genomes
 2. how many genomes have at least one gene that produces this protein
@@ -26,3 +31,5 @@ Try to model the requirements of the system by listing the top 20 queries
     4. Data incompleteness (no source, domain, taxonomy for a genome)
 8. ability find features by various aliases
 9. ability to look at splice variants (cds->mRNA->locus)
+
+## Long-term
