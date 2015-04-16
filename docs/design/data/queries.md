@@ -31,5 +31,7 @@ organize it.
     4. Data incompleteness (no source, domain, taxonomy for a genome)
 8. ability find features by various aliases
 9. ability to look at splice variants (cds->mRNA->locus)
+10. What genes match a given protein domain or family (e.g., TIGRFams, Pfams, COGs)
+11. What protein domains/families match a given gene (like what gene_families service currently does)
 
 ## Long-term
