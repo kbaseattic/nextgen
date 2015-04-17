@@ -41,5 +41,6 @@ organize it.
 14. For this gene, find me all reactions to which it is related
 15. For this reaction, find me all genomes that encode a gene that is linked to it
 16. For this reaction, find me all models in which it is present. 
-17. For this biochemical, find me all reactions which use it and then all (meta)genomes that contain genes that link to these reactions. 
+17. For this biochemical, find me all reactions which use it and then all (meta)genomes that contain genes that link to these reactions.
+
 ## Long-term
