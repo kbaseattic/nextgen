@@ -16,6 +16,7 @@ This is a little bit of a shambles with code copying and maybe a little too much
 2. Make the remaining ui-common code deployable in such a way that it can either:
   - Be fetched from a CDN (cdn.kbase.us, maybe?)
   - Be included as a subrepo (which might be cleaner, but also implies some work to keep up the subrepos when widget code changes, or only use head of a certain branch of ui-common as the subrepo)
+  - Be included as a Bower package.  [Using Bower for external JS libs should also be considered (instead of submodules in ui-common/ext/)]
 3. Refactor both the functional site and narrative to use those subrepos for their widgets
 
 ### Search
