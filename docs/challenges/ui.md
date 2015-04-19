@@ -8,7 +8,7 @@ Compiled March, 2015
 We currently have two (three?) repos for user interface code
 - __ui-common__ - contains most widget code, external dependencies, as well as the "functional site" - dashboard and landing pages
 - __narrative__ - contains the code for the NI extensions to IPython, and all front end code for the NI. This includes a number of NI engine widgets, and numerous other widgets that are (ugh) copied from ui-common
-- __workspace-browser__ (tentatively) - contains the Workspace Browser as a separately deployable application, factored out of the code that lives in ui-common
+- __workspace_browser__ (tentatively) - contains the Workspace Browser as a separately deployable application, factored out of the code that lives in ui-common
 
 This is a little bit of a shambles with code copying and maybe a little too much overlap of use in certain places. I believe that ui-common should only contain modular pieces of code that will be shared among multiple repos - namely the widgets, KBase client API, and external dependencies, and everything else should use ui-common as a subrepo. This implies some work:
 
