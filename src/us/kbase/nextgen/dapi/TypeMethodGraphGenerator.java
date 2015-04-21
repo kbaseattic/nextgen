@@ -3,6 +3,7 @@ package us.kbase.nextgen.dapi;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringReader;
@@ -118,15 +119,89 @@ public class TypeMethodGraphGenerator {
 	 * @throws Exception
 	 */
 	private void run() throws Exception{
-		String fileName = "/kb/dev_container/modules/expression/KBaseExpression.spec";
-		
-		Graph<Node, Edge> graph = new SparseMultigraph<Node, Edge>();		
-		String specDocument = FileUtils.readFileToString(new File(fileName));
-		populateGraph(graph, specDocument);
-		exportGraphML(graph, new PrintWriter( System.out));
+		File specFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/specs/workspace/");
+		File graphFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/type_method_graph/workspace/");
+
+		processIndividualFiles(specFileDir, graphFileDir);
+		buildSingleGraph(specFileDir, graphFileDir);
 	}	
 	
+	private void processIndividualFiles(File specFileDir, File graphFileDir){
+		for(File specFile: specFileDir.listFiles()){
+			if(specFile.getName().endsWith(".spec")){
+				processSpecFile(specFile, graphFileDir);
+			}
+		}
+	}
 	
+	private void buildSingleGraph(File specFileDir, File graphFileDir){
+		init();
+		Graph<Node, Edge> graph = new SparseMultigraph<Node, Edge>();		
+
+		// Build graph
+		for(File specFile: specFileDir.listFiles()){
+			if(!specFile.getName().endsWith(".spec")) continue;
+			
+			System.out.print("Doing spec file: " + specFile.getName() + "...");
+			try{
+				String specDocument = FileUtils.readFileToString(specFile);
+				populateGraph(graph, specDocument);
+				
+				System.out.println(" Done!");
+				
+			} catch(Exception e){
+				System.out.println(e.getMessage());
+			}
+		}
+		
+		// Export graph
+		try{
+			File graphFile = new File(graphFileDir, "_combined.graphml");
+			FileWriter fw = new FileWriter(graphFile);
+			exportGraphML(graph, fw);
+			fw.flush();
+			fw.close();
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+	}
+
+	
+	
+	/**
+	 * Processes one spec file
+	 * @param specFile
+	 * @param exportDir
+	 */
+	private void processSpecFile(File specFile, File exportDir){
+		try{
+			init();
+			System.out.print("Doing spec file: " + specFile.getName() + "...");
+			File graphFile = new File(exportDir, specFile.getName() + ".graphml");
+			
+			Graph<Node, Edge> graph = new SparseMultigraph<Node, Edge>();		
+			String specDocument = FileUtils.readFileToString(specFile);
+			populateGraph(graph, specDocument);
+			
+			FileWriter fw = new FileWriter(graphFile);
+			exportGraphML(graph, fw);
+			fw.flush();
+			fw.close();
+			System.out.println(" Done!");
+			
+		} catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	/**
+	 * Initialize before graph building 
+	 */
+	private void init() {
+		// Clear map that stores registered nodes
+		name2node.clear();		
+	}
+
 	/**
 	 * Build a new node for a given typedef, or return the existing one if it was built already 
 	 * @param typedef
