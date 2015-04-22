@@ -5,7 +5,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.io.Writer;
@@ -50,11 +49,17 @@ import edu.uci.ics.jung.io.PajekNetWriter;
  *
  */
 public class TypeMethodGraphGenerator {
-
+	
+	
 	/**
 	 * Map to store registered nodes 
 	 */
 	private Map<String,Node> name2node = new Hashtable<String,Node>();
+	
+	/**
+	 * Include provider that provides specDocuments to be included in a given spec via "include" statement
+	 */
+	private StaticIncludeProvider sip;
 	
 	
 	/**
@@ -116,16 +121,41 @@ public class TypeMethodGraphGenerator {
 
 	/**
 	 * Run TypeMethodGraphGenerator 
+	 * @param graphFileDir 
+	 * @param specFileDir 
 	 * @throws Exception
 	 */
-	private void run() throws Exception{
-		File specFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/specs/workspace/");
-		File graphFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/type_method_graph/workspace/");
+	private void run(File specFileDir, File graphFileDir) throws Exception{
 
+		buildIncludeProvider(specFileDir);
+		
 		processIndividualFiles(specFileDir, graphFileDir);
 		buildSingleGraph(specFileDir, graphFileDir);
 	}	
 	
+	/**
+	 * Builds include provider 
+	 * @param cleanFileDir
+	 * @throws IOException
+	 */
+	private void buildIncludeProvider(File cleanFileDir) throws IOException {
+		sip = new StaticIncludeProvider();
+		
+		for(File specFile: cleanFileDir.listFiles()){
+			if(specFile.getName().endsWith(".spec")){
+				String fileName = specFile.getName();
+				String moduleName = fileName.substring(0,  fileName.indexOf(".") );
+				String specDocument = FileUtils.readFileToString(specFile);
+				sip.addSpecFile(moduleName, specDocument);
+			}
+		}		
+	}
+	
+	/**
+	 * Builds individual graphs for spec files
+	 * @param specFileDir
+	 * @param graphFileDir
+	 */
 	private void processIndividualFiles(File specFileDir, File graphFileDir){
 		for(File specFile: specFileDir.listFiles()){
 			if(specFile.getName().endsWith(".spec")){
@@ -134,6 +164,11 @@ public class TypeMethodGraphGenerator {
 		}
 	}
 	
+	/**
+	 * Builds a combined graph for all spec files
+	 * @param specFileDir
+	 * @param graphFileDir
+	 */
 	private void buildSingleGraph(File specFileDir, File graphFileDir){
 		init();
 		Graph<Node, Edge> graph = new SparseMultigraph<Node, Edge>();		
@@ -299,7 +334,6 @@ public class TypeMethodGraphGenerator {
 	private void populateGraph(Graph<Node, Edge> graph, String specDocument)
 			throws Exception {
 		StringReader r = new StringReader(specDocument);
-		StaticIncludeProvider sip = new StaticIncludeProvider();
 
 		Map<String, Map<String, String>> moduleToTypeToSchema = null;
 		Map<?, ?> parseMap = KidlParser.parseSpecInt(r, moduleToTypeToSchema,sip);
@@ -619,6 +653,9 @@ public class TypeMethodGraphGenerator {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		new TypeMethodGraphGenerator().run();
+		File specFileDir  = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_clean/");
+		File graphFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/graphs/");
+		
+		new TypeMethodGraphGenerator().run(specFileDir, graphFileDir);
 	}
 }
