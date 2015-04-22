@@ -50,6 +50,16 @@ import edu.uci.ics.jung.io.PajekNetWriter;
  */
 public class TypeMethodGraphGenerator {
 	
+	/**
+	 * Whether the type-type should be taking into account  
+	 */
+	private static boolean useType2TypeEdges;
+	
+	/**
+	 * Whether the method-type  should be taking into account
+	 */
+	private static boolean useType2MethodEdges;
+	
 	
 	/**
 	 * Map to store registered nodes 
@@ -262,6 +272,10 @@ public class TypeMethodGraphGenerator {
 	 * @throws Exception
 	 */
 	private void processTypedef(Graph<Node, Edge> graph, Node rootNode, Edge edge, KbType type) throws Exception{
+		
+		// Do not crete type-type edges if not needed 
+		if(!useType2TypeEdges) return;
+		
 		KbTypedef typedef = null;
 		
 		// If the type is either "typedef" or "typedef structure"
@@ -355,10 +369,13 @@ public class TypeMethodGraphGenerator {
 								
 								// try to add edges for subtypes
 								processTypedef(graph, null, null, paramType);
-								
-								// add edge for dataype-method connection
-								Node paramNode = buildNode((KbTypedef) paramType);
-								graph.addEdge(Edge.METHOD_PARAM(), paramNode, funcNode, EdgeType.DIRECTED);
+
+								// Add type-method edge only if it was requested
+								if(useType2MethodEdges) {
+									// add edge for dataype-method connection
+									Node paramNode = buildNode((KbTypedef) paramType);
+									graph.addEdge(Edge.METHOD_PARAM(), paramNode, funcNode, EdgeType.DIRECTED);
+								}
 							}
 						}
 						for (KbParameter param : func.getReturnType()) {
@@ -368,9 +385,13 @@ public class TypeMethodGraphGenerator {
 								// try to add edges for subtypes
 								processTypedef(graph, null, null, returnType);
 
-								// add edge for dataype-method connection
-								Node returnNode = buildNode((KbTypedef) returnType);
-								graph.addEdge(Edge.METHOD_RETURN(), funcNode, returnNode, EdgeType.DIRECTED);
+								// Add type-method edge only if it was requested
+								if(useType2MethodEdges) {
+									// add edge for dataype-method connection
+									Node returnNode = buildNode((KbTypedef) returnType);
+									graph.addEdge(Edge.METHOD_RETURN(), funcNode, returnNode, EdgeType.DIRECTED);
+									
+								}
 							}
 						}
 					}
@@ -653,8 +674,12 @@ public class TypeMethodGraphGenerator {
 	}
 	
 	public static void main(String[] args) throws Exception {
+		
+		useType2TypeEdges = false;
+		useType2MethodEdges = true;
+		
 		File specFileDir  = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_clean/");
-		File graphFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/graphs/");
+		File graphFileDir = new File("/kb/dev_container/modules/nextgen/diagrams/typespecs/graphs_type_method/");
 		
 		new TypeMethodGraphGenerator().run(specFileDir, graphFileDir);
 	}
