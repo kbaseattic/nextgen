@@ -44,3 +44,38 @@ organize it.
 17. For this biochemical, find me all reactions which use it and then all (meta)genomes that contain genes that link to these reactions.
 
 ## Long-term
+
+## Directly from the services themselves
+
+This section summarizes the functions in an arbitrary selection of 
+the existing services. Not all details on input and output types are given,
+just like riding an aquatic mammal (on porpoise).
+
+1. [Genome annotation](https://github.com/kbase/genome_annotation/blob/master/GenomeAnnotation.spec)
+    1. Given one or more Central Store genome IDs, convert them into genome objects
+    2. Create a new genome object and assign metadata
+    3. Create a new genome object based on data from the SEED project (input = genome-id)
+    4. Create a new genome object based on a RAST genome
+    5. Modify genome metadata
+    6. Add a set of contigs to the genome object
+    7. Add a set of features in tabular form
+    8. Given a genome object populated with contig data, perform gene calling
+       and functional annotation and return the annotated genome.
+    9. Given a genome typed object, call selenoprotein features
+    10. Given a genome typed object, call pyrrolysoprotein features
+    11. Given a genome typed object, call insertion sequences
+    12. Given a genome typed object, find instances of ribosomal RNAs in
+        the genome (return = genome)
+    13. Given a genome typed object, find instances of tRNAs in the genome
+        (return = genome)
+    14. Given a genome typed object, find instances of all RNAs we currently
+        have support for detecting (return = genome)
+        
+2. [Protein info](https://github.com/kbase/protein_info_service/blob/master/ProteinInfoService.spec)
+    1. Take as input a list of feature ids, and return a mapping of each fid to
+       its operon, or domains, or a list of hits, or IPR assignments, or orthologous fids 
+       in all genomes (possibly eukaryotic), or Enzyme Commission numbers, 
+       or Gene Ontology assignments.
+    2. Take as input a list of domain ids and return a mapping of each domain_id 
+       to the fids which have that domain (reverse of fids -> domain), or to
+       its text annotation as provided by its maintainer
