@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.boolean_gene_expression_data_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>boolean_gene_expression_data_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.change_regulatory_network_namespace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>change_regulatory_network_namespace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RegulatoryTarget">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RegulatoryTarget</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.PromConstraint">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>PromConstraint</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.prom_constraints_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>prom_constraints_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.BooleanGeneExpressionDataCollection">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>BooleanGeneExpressionDataCollection</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.regulatory_network">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>regulatory_network</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.workspace_name">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>workspace_name</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_data_by_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_data_by_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.create_prom_constraints">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>create_prom_constraints</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_regulatory_network_by_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_regulatory_network_by_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_data_collection_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_data_collection_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.annotation_uuid">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>annotation_uuid</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CreatePromConstraintsParameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CreatePromConstraintsParameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.auth_token">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>auth_token</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.create_expression_data_collection">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>create_expression_data_collection</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.regulatory_network_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>regulatory_network_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.add_expression_data_to_collection">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>add_expression_data_to_collection</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.on_off_state">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>on_off_state</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.source">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>source</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.BooleanGeneExpressionData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>BooleanGeneExpressionData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.status">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>status</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_object_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_object_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RegulatoryInteraction">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RegulatoryInteraction</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.change_expression_data_namespace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>change_expression_data_namespace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.TFMap">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>TFMap</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.prom_constraints_id" target="D.PromConstraint">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="F.change_regulatory_network_namespace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RegulatoryInteraction" target="D.regulatory_network">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.change_expression_data_namespace" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_regulatory_network_by_genome" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.regulatory_network_id" target="F.change_regulatory_network_namespace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.RegulatoryInteraction">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="F.add_expression_data_to_collection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_collection_id" target="D.PromConstraint">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_collection_id" target="F.add_expression_data_to_collection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean_gene_expression_data_id" target="D.BooleanGeneExpressionData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.BooleanGeneExpressionData" target="D.BooleanGeneExpressionDataCollection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_data_by_genome" target="D.expression_data_collection_id">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_data_by_genome" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="F.get_expression_data_by_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_regulatory_network_by_genome" target="D.regulatory_network_id">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_prom_constraints" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="F.change_expression_data_namespace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="F.get_regulatory_network_by_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="F.change_regulatory_network_namespace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="F.get_regulatory_network_by_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CreatePromConstraintsParameters" target="F.create_prom_constraints">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_collection_id" target="F.change_expression_data_namespace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.BooleanGeneExpressionData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="D.CreatePromConstraintsParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.add_expression_data_to_collection" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="F.add_expression_data_to_collection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_expression_data_collection" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.change_regulatory_network_namespace" target="D.regulatory_network_id">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.regulatory_network_id" target="D.CreatePromConstraintsParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="D.CreatePromConstraintsParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="F.change_expression_data_namespace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.on_off_state" target="D.BooleanGeneExpressionData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_object_id" target="D.CreatePromConstraintsParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_expression_data_collection" target="D.expression_data_collection_id">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.RegulatoryInteraction">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="F.create_expression_data_collection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_prom_constraints" target="D.prom_constraints_id">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.change_regulatory_network_namespace" target="D.status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.auth_token" target="F.create_expression_data_collection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.annotation_uuid" target="D.PromConstraint">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RegulatoryTarget" target="D.TFMap">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.source" target="D.BooleanGeneExpressionData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="F.get_regulatory_network_by_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.TFMap" target="D.PromConstraint">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="F.get_expression_data_by_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_collection_id" target="D.CreatePromConstraintsParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_collection_id" target="D.BooleanGeneExpressionDataCollection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.source" target="D.BooleanGeneExpressionData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_name" target="F.get_expression_data_by_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

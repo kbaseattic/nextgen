@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.Table2DInt">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Table2DInt</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.URI">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>URI</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Abundance1DTableFloat">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Abundance1DTableFloat</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Abundance2DTableInt">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Abundance2DTableInt</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Abundance2DTableFloat">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Abundance2DTableFloat</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.date">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>date</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Table1DFloat">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Table1DFloat</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Sample">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Sample</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Project">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Project</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Table1DInt">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Table1DInt</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Abundance1DTableInt">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Abundance1DTableInt</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Metagenome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Metagenome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contact_information">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contact_information</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Table2DFloat">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Table2DFloat</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.URI" target="D.Metagenome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Table2DInt" target="D.Abundance2DTableInt">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.URI" target="D.Sample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Table2DFloat" target="D.Abundance2DTableFloat">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.date" target="D.Sample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Sample" target="D.Metagenome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_information" target="D.Project">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_information" target="D.Project">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.URI" target="D.Metagenome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Project" target="D.Metagenome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.date" target="D.Sample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.date" target="D.Project">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Table1DInt" target="D.Abundance1DTableInt">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.date" target="D.Metagenome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.URI" target="D.Metagenome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.URI" target="D.Project">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Table1DFloat" target="D.Abundance1DTableFloat">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

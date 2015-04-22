@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.Cell">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Cell</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Narrative">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Narrative</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Worksheet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Worksheet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.Worksheet" target="D.Narrative">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Cell" target="D.Worksheet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.source_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>source_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SourceInfo">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SourceInfo</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.bool">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>bool</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.PairedEndLibrary">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>PairedEndLibrary</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AssemblyFile">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AssemblyFile</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AnnotationFile">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AnnotationFile</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.pairedlib_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>pairedlib_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.project_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>project_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Handle">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Handle</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.dna_feature_type">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>dna_feature_type</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.assembly_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>assembly_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SingleEndLibrary">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SingleEndLibrary</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.handle_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>handle_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.singlelib_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>singlelib_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FileRef">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FileRef</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Location">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Location</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.StrainInfo">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>StrainInfo</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.pairedlib_id" target="D.AssemblyFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.SingleEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FileRef" target="D.SingleEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SourceInfo" target="D.StrainInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.FileRef">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SourceInfo" target="D.SingleEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SourceInfo" target="D.AnnotationFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FileRef" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.singlelib_id" target="D.AssemblyFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Location" target="D.StrainInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.dna_feature_type" target="D.AnnotationFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.handle_id" target="D.Handle">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FileRef" target="D.AssemblyFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.source_id" target="D.SourceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.StrainInfo" target="D.SingleEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FileRef" target="D.AnnotationFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.StrainInfo" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.assembly_id" target="D.AnnotationFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SourceInfo" target="D.AssemblyFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.StrainInfo" target="D.AnnotationFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.StrainInfo" target="D.AssemblyFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.project_id" target="D.SourceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SourceInfo" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FileRef" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.PairedEndLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

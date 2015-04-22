@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.subsystem_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>subsystem_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_term_annotation_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_term_annotation_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.OntologyTermAnnotation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>OntologyTermAnnotation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gene_list">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gene_list</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.OntologyTerm">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>OntologyTerm</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.role_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>role_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ComplexRole">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ComplexRole</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.complex_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>complex_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.OntologyAccMap">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>OntologyAccMap</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ParentTerm">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ParentTerm</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Complex">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Complex</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Ontology">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Ontology</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Subsystem">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Subsystem</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_acc">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_acc</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Role">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Role</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gene_annotation_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gene_annotation_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.role_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>role_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.evidence_code">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>evidence_code</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GeneOntologyAnnotation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GeneOntologyAnnotation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.map_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>map_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gene_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gene_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.ParentTerm" target="D.OntologyTerm">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.complex_id" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Complex" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_term_annotation_map" target="D.gene_annotation_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gene_id" target="D.gene_annotation_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gene_annotation_map" target="D.GeneOntologyAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Subsystem" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gene_id" target="D.gene_list">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.role_id" target="D.Role">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.role_ref" target="D.ComplexRole">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.OntologyTermAnnotation" target="D.ontology_term_annotation_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.Ontology">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.map_id" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.subsystem_id" target="D.Subsystem">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.complex_id" target="D.Complex">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.role_id" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_acc" target="D.OntologyAccMap">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_acc" target="D.ontology_term_annotation_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.evidence_code" target="D.Ontology">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.evidence_code" target="D.OntologyTermAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_acc" target="D.Ontology">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.OntologyTerm" target="D.OntologyAccMap">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ComplexRole" target="D.Complex">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.subsystem_id" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gene_list" target="D.Ontology">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.role_ref" target="D.Subsystem">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Role" target="D.Mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

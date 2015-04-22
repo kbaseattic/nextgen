@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.ProbAnno">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ProbAnno</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.workspace_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>workspace_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.function_probability">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>function_probability</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RxnProbs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RxnProbs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.roleset_probabilities">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>roleset_probabilities</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.reaction_probability_list">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>reaction_probability_list</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.rxnprobs_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>rxnprobs_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.object_metadata">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>object_metadata</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GetRxnprobsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GetRxnprobsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_rxnprobs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_rxnprobs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.reaction_probability">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>reaction_probability</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.annotate">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>annotate</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AnnotateParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AnnotateParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_probanno">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_probanno</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GetProbannoParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GetProbannoParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.calculate">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>calculate</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CalculateParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CalculateParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.probanno_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>probanno_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.template_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>template_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.bool">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>bool</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.job_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>job_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.rxnprobs_id" target="D.GetRxnprobsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.template_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.AnnotateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GetProbannoParams" target="F.get_probanno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.ProbAnno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.annotate" target="D.job_id">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.probanno_id" target="D.ProbAnno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.function_probability" target="D.roleset_probabilities">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.ProbAnno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.GetRxnprobsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.ProbAnno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.AnnotateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.calculate" target="D.object_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GetRxnprobsParams" target="F.get_rxnprobs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.ProbAnno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.GetProbannoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.probanno_id" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.AnnotateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.AnnotateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.roleset_probabilities">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.function_probability" target="D.ProbAnno">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_rxnprobs" target="D.reaction_probability_list">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.template_id" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_probanno" target="D.roleset_probabilities">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.AnnotateParams" target="F.annotate">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.AnnotateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.probanno_id" target="D.AnnotateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.rxnprobs_id" target="D.CalculateParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CalculateParams" target="F.calculate">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.reaction_probability" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.rxnprobs_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workspace_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.reaction_probability" target="D.reaction_probability_list">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.probanno_id" target="D.GetProbannoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.probanno_id" target="D.RxnProbs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

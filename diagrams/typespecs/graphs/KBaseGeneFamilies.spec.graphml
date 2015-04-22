@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.ws_lib_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ws_lib_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.domain_source">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>domain_source</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.DomainAnnotation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>DomainAnnotation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.date">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>date</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.DomainLibrary">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>DomainLibrary</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.annotation_element">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>annotation_element</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Handle">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Handle</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.model_type">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>model_type</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.domain_library_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>domain_library_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SearchDomainsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SearchDomainsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.dms_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>dms_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.program_version">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>program_version</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.search_domains">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>search_domains</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contig_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contig_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.DomainModelSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>DomainModelSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.DomainModel">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>DomainModel</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.domain_accession">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>domain_accession</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.dms_ref" target="D.DomainAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.domain_accession" target="D.DomainModel">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.DomainModel" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.domain_source" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.annotation_element" target="D.DomainAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contig_id" target="D.DomainAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.domain_library_id" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contig_id" target="D.DomainAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.domain_accession" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.program_version" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.domain_accession" target="D.DomainModelSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.dms_ref" target="D.SearchDomainsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.date" target="D.DomainLibrary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ref" target="D.DomainAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SearchDomainsParams" target="F.search_domains">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ref" target="D.SearchDomainsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.model_type" target="D.DomainModel">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_lib_id" target="D.DomainModelSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

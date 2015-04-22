@@ -1,0 +1,996 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.RenameWorkspaceParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RenameWorkspaceParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_module_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_module_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SubObjectIdentity">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SubObjectIdentity</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_module_versions">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_module_versions</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_all_type_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_all_type_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CopyObjectParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CopyObjectParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.create_workspace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>create_workspace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.object_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>object_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.obj_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>obj_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.usermeta">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>usermeta</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SaveObjectsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SaveObjectsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.workspace_metadata">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>workspace_metadata</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_func_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_func_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.jsonschema">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>jsonschema</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_workspace_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_workspace_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.grant_module_ownership">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>grant_module_ownership</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SetGlobalPermissionsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SetGlobalPermissionsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.typename">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>typename</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ObjectProvenanceInfo">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ObjectProvenanceInfo</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_type_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_type_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.remove_module_ownership">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>remove_module_ownership</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ObjectData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ObjectData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ModuleVersions">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ModuleVersions</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.register_typespec_copy">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>register_typespec_copy</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExternalDataUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExternalDataUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ObjectSaveData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ObjectSaveData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_workspace_description">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_workspace_description</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ws_name">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ws_name</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ListModuleVersionsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ListModuleVersionsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_objectmeta">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_objectmeta</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.list_workspace_objects_params">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>list_workspace_objects_params</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_object_history">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_object_history</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.save_object">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>save_object</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.permission">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>permission</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.release_module">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>release_module</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ref_chain">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ref_chain</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.save_objects">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>save_objects</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_object_info_new">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_object_info_new</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.get_object_params">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>get_object_params</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ProvenanceAction">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ProvenanceAction</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.register_typespec">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>register_typespec</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GrantModuleOwnershipParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GrantModuleOwnershipParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_all_types">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_all_types</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RemoveModuleOwnershipParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RemoveModuleOwnershipParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.TypeInfo">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>TypeInfo</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.WorkspaceIdentity">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>WorkspaceIdentity</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.timestamp">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>timestamp</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.get_workspacemeta_params">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>get_workspacemeta_params</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.request_module_ownership">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>request_module_ownership</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GetModuleInfoParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GetModuleInfoParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.save_object_params">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>save_object_params</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.delete_workspace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>delete_workspace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_jsonschema">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_jsonschema</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.spec_version">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>spec_version</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.set_permissions">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>set_permissions</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ObjectIdentity">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ObjectIdentity</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_workspacemeta">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_workspacemeta</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.modulename">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>modulename</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.object_path">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>object_path</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.rename_workspace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>rename_workspace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ListModulesParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ListModulesParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_workspace_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_workspace_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_object_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_object_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_modules">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_modules</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RegisterTypespecParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RegisterTypespecParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_object">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_object</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.set_workspace_description">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>set_workspace_description</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.alter_workspace_metadata">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>alter_workspace_metadata</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.boolean">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>boolean</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CloneWorkspaceParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CloneWorkspaceParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.get_object_output">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>get_object_output</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.revert_object">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>revert_object</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.copy_object">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>copy_object</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.typespec">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>typespec</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.func_string">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>func_string</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.object_metadata">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>object_metadata</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.get_objectmeta_params">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>get_objectmeta_params</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GetObjectInfoNewParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GetObjectInfoNewParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RegisterTypespecCopyParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RegisterTypespecCopyParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AlterWorkspaceMetadataParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AlterWorkspaceMetadataParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.rename_object">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>rename_object</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FuncInfo">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FuncInfo</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.obj_ver">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>obj_ver</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.username">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>username</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_workspaces">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_workspaces</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.set_global_permission">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>set_global_permission</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_all_func_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_all_func_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.type_string">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>type_string</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.workspace_info">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>workspace_info</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_workspace_objects">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_workspace_objects</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.obj_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>obj_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SetWorkspaceDescriptionParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SetWorkspaceDescriptionParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ListObjectsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ListObjectsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CreateWorkspaceParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CreateWorkspaceParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.undelete_workspace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>undelete_workspace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RenameObjectParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RenameObjectParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ListAllTypesParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ListAllTypesParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.id_type">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>id_type</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ModuleInfo">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ModuleInfo</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_permissions">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_permissions</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.lock_workspace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>lock_workspace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.obj_name">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>obj_name</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.list_objects">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>list_objects</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SetPermissionsParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SetPermissionsParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.extracted_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>extracted_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ListWorkspaceInfoParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ListWorkspaceInfoParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ws_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ws_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.clone_workspace">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>clone_workspace</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.list_workspaces_params">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>list_workspaces_params</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.usermeta" target="D.CloneWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.save_object_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GetModuleInfoParams" target="F.get_module_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.GetModuleInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="D.CloneWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.rename_workspace" target="D.workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.object_metadata" target="D.get_object_output">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ListAllTypesParams" target="F.list_all_types">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SetWorkspaceDescriptionParams" target="F.set_workspace_description">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.func_string" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.id_type" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.get_objectmeta_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.usermeta" target="D.ObjectSaveData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.permission" target="D.CreateWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ListModulesParams" target="F.list_modules">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.SetPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.ObjectSaveData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.CloneWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="D.CopyObjectParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="F.revert_object">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.get_object_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.AlterWorkspaceMetadataParams" target="F.alter_workspace_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.list_workspace_objects_params" target="F.list_workspace_objects">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.save_object" target="D.object_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="F.lock_workspace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.list_workspaces_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.object_info" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.typespec" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.usermeta" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RemoveModuleOwnershipParams" target="F.remove_module_ownership">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.SetGlobalPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ExternalDataUnit" target="D.ProvenanceAction">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.ListModuleVersionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.GetObjectInfoNewParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="F.get_all_func_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.GrantModuleOwnershipParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CopyObjectParams" target="F.copy_object">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.usermeta" target="D.AlterWorkspaceMetadataParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.list_workspace_objects_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.WorkspaceIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="F.delete_workspace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="D.AlterWorkspaceMetadataParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ver" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.extracted_id" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="F.get_type_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_workspace_info" target="D.workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.ObjectSaveData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="F.get_jsonschema">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.GrantModuleOwnershipParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="F.undelete_workspace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.SetGlobalPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="F.get_all_type_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.object_path" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ListWorkspaceInfoParams" target="F.list_workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="D.ref_chain">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.SaveObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="F.release_module">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="F.get_object_history">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ListModuleVersionsParams" target="F.list_module_versions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.typename" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.get_object_params" target="F.get_object">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.GetObjectInfoNewParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RegisterTypespecParams" target="F.register_typespec">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.func_string" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SetGlobalPermissionsParams" target="F.set_global_permission">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.get_objectmeta_params" target="F.get_objectmeta">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SaveObjectsParams" target="F.save_objects">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.func_string" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_module_info" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.rename_object" target="D.object_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.get_objectmeta_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GetObjectInfoNewParams" target="F.get_object_info_new">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.clone_workspace" target="D.workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_id" target="D.ObjectSaveData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.SetWorkspaceDescriptionParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.id_type" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="F.get_workspace_description">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.ListModuleVersionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ProvenanceAction" target="D.ObjectSaveData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="D.GetObjectInfoNewParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.revert_object" target="D.object_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.SaveObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.get_workspacemeta_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.get_workspacemeta_params" target="F.get_workspacemeta">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.object_info" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.CreateWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ListObjectsParams" target="F.list_objects">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_objectmeta" target="D.object_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="F.get_permissions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_type_info" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.list_workspace_objects_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.typespec" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.list_module_versions" target="D.ModuleVersions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.GetModuleInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.permission" target="D.SetGlobalPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.permission" target="D.SetPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ProvenanceAction" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.jsonschema" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.lock_workspace" target="D.workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="D.RenameWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ExternalDataUnit">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CreateWorkspaceParams" target="F.create_workspace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.func_string" target="F.get_func_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="D.RenameObjectParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ObjectSaveData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.extracted_id" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.ObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_id" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ver" target="D.ObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.func_string" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ProvenanceAction">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CloneWorkspaceParams" target="F.clone_workspace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.func_string" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.permission" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.get_workspacemeta_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.ModuleVersions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RegisterTypespecCopyParams" target="F.register_typespec_copy">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.RenameWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.SetPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="F.get_object_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.SetWorkspaceDescriptionParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectSaveData" target="D.SaveObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.copy_object" target="D.object_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.save_object_params" target="F.save_object">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ObjectIdentity" target="D.CopyObjectParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SetPermissionsParams" target="F.set_permissions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.GrantModuleOwnershipParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.RegisterTypespecCopyParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.list_workspaces_params" target="F.list_workspaces">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.permission" target="D.CloneWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_func_info" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.ListModulesParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_id" target="D.ObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_id" target="D.ObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.FuncInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.usermeta" target="D.CreateWorkspaceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.RegisterTypespecCopyParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.save_object_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.usermeta" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.ModuleVersions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_ref" target="D.ProvenanceAction">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_jsonschema" target="D.jsonschema">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RenameObjectParams" target="F.rename_object">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_workspacemeta" target="D.workspace_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RenameWorkspaceParams" target="F.rename_workspace">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.typename" target="D.RegisterTypespecParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.save_object_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_workspace" target="D.workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="F.request_module_ownership">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ObjectData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.permission" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.register_typespec_copy" target="D.spec_version">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ProvenanceAction">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListObjectsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.WorkspaceIdentity" target="F.get_workspace_info">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_object" target="D.get_object_output">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.ListWorkspaceInfoParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.username" target="D.RemoveModuleOwnershipParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.modulename" target="D.RemoveModuleOwnershipParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.type_string" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.ModuleVersions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.SubObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.RenameObjectParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.ListAllTypesParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.WorkspaceIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.get_object_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GrantModuleOwnershipParams" target="F.grant_module_ownership">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ProvenanceAction" target="D.ObjectProvenanceInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.jsonschema" target="D.ModuleInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.obj_name" target="D.ObjectIdentity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.SetPermissionsParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.spec_version" target="D.TypeInfo">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ws_name" target="D.list_workspace_objects_params">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

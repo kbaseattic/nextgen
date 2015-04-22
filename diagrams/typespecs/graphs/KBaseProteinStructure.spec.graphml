@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.md5_ids_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>md5_ids_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.exact_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>exact_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_to_pdb_matches">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_to_pdb_matches</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.pdb_id_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>pdb_id_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.md5_id_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>md5_id_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_id_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_id_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_ids_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_ids_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.align_length_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>align_length_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.lookup_pdb_by_md5">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>lookup_pdb_by_md5</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.PDBMatch">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>PDBMatch</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.lookup_pdb_by_fid">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>lookup_pdb_by_fid</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.percent_id_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>percent_id_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.PDBMatches">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>PDBMatches</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.chains_t">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>chains_t</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.md5_to_pdb_matches">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>md5_to_pdb_matches</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.chains_t" target="D.PDBMatch">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.md5_id_t" target="D.md5_to_pdb_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.PDBMatches" target="D.fid_to_pdb_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.lookup_pdb_by_md5" target="D.md5_to_pdb_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.PDBMatch" target="D.PDBMatches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id_t" target="D.feature_ids_t">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id_t" target="D.fid_to_pdb_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_ids_t" target="F.lookup_pdb_by_fid">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.lookup_pdb_by_fid" target="D.fid_to_pdb_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.md5_id_t" target="D.md5_ids_t">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.pdb_id_t" target="D.PDBMatch">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.percent_id_t" target="D.PDBMatch">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.PDBMatches" target="D.md5_to_pdb_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.align_length_t" target="D.PDBMatch">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.md5_ids_t" target="F.lookup_pdb_by_md5">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.exact_t" target="D.PDBMatch">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

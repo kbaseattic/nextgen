@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.variationUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>variationUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationSummary">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationSummary</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.traitUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>traitUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.populationUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>populationUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.filetypes">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>filetypes</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationKinship">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationKinship</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.observation_unit_details">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>observation_unit_details</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulation_obj_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulation_obj_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_details">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_details</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationKinship_obj_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationKinship_obj_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genelistUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genelistUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.kinshipUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>kinshipUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.topVariationUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>topVariationUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.shock_url">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>shock_url</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationVariation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationVariation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationTrait_obj_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationTrait_obj_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.VariantCallSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>VariantCallSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.VariantCall">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>VariantCall</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.populationTraitUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>populationTraitUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.populationVariationUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>populationVariationUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.VariationSample">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>VariationSample</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.traitTopvariationUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>traitTopvariationUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.VariationSamplesMetaData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>VariationSamplesMetaData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.VariationSamplesSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>VariationSamplesSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.topvariationGenelistUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>topvariationGenelistUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contig_details">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contig_details</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationVariation_obj_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationVariation_obj_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationTrait">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationTrait</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasPopulationStructure_obj_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasPopulationStructure_obj_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GwasTopVariations">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GwasTopVariations</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.shock_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>shock_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.kinship_data">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>kinship_data</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.VariationSampleMetaData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>VariationSampleMetaData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.variationKinshipUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>variationKinshipUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.shock_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>shock_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.idnameUnit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>idnameUnit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.genome_details" target="D.GwasPopulationTrait">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulationVariation_obj_id" target="D.GwasPopulationKinship">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulationStructure_obj_id" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_url" target="D.shock_ref">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulation_obj_id" target="D.GwasPopulationVariation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.traitTopvariationUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_ref" target="D.VariantCall">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.VariationSampleMetaData" target="D.VariantCall">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulation_obj_id" target="D.GwasPopulationTrait">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_ref" target="D.VariationSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulationVariation_obj_id" target="D.GwasPopulationVariation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kinship_data" target="D.GwasPopulationKinship">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genelistUnit" target="D.topvariationGenelistUnit">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.topVariationUnit" target="D.traitTopvariationUnit">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.VariationSampleMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.idnameUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.filetypes" target="D.GwasPopulationVariation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.variationUnit" target="D.populationVariationUnit">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.topvariationGenelistUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.variationKinshipUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kinshipUnit" target="D.variationKinshipUnit">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.traitUnit" target="D.populationTraitUnit">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.VariationSample" target="D.VariationSamplesSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.VariantCall" target="D.VariantCallSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.populationTraitUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulationKinship_obj_id" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_details" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulationVariation_obj_id" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_details" target="D.GwasPopulationKinship">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.observation_unit_details" target="D.GwasPopulation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.VariationSampleMetaData" target="D.VariationSamplesMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.VariationSampleMetaData" target="D.VariationSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_details" target="D.GwasPopulationVariation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contig_details" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_details" target="D.GwasPopulation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.populationVariationUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulation_obj_id" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_id" target="D.shock_ref">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulation_obj_id" target="D.GwasPopulationKinship">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.populationUnit" target="D.GwasPopulationSummary">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GwasPopulationTrait_obj_id" target="D.GwasTopVariations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

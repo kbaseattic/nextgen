@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.MAKInputData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MAKInputData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.MAKResult">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MAKResult</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.StringDataTableContainer">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>StringDataTableContainer</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.StringDataTable">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>StringDataTable</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.MAKParameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MAKParameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.search_MAK_results_from_ws">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>search_MAK_results_from_ws</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.MAKBiclusterSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MAKBiclusterSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.search_MAK_results_from_cds">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>search_MAK_results_from_cds</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.MAKBicluster">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MAKBicluster</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FloatDataTableContainer">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FloatDataTableContainer</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.inputdata_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>inputdata_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FloatDataTable">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FloatDataTable</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.StringDataTable" target="D.StringDataTableContainer">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FloatDataTable" target="D.FloatDataTableContainer">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.MAKBiclusterSet" target="D.MAKResult">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.MAKInputData" target="D.MAKParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.search_MAK_results_from_cds" target="D.MAKBiclusterSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ws_ref" target="D.MAKParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.MAKParameters" target="D.MAKResult">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.MAKBicluster" target="D.MAKBiclusterSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.search_MAK_results_from_ws" target="D.MAKBiclusterSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.inputdata_ws_ref" target="D.MAKParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ws_ref" target="D.MAKInputData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>
