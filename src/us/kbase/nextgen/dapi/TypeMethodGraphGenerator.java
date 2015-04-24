@@ -139,7 +139,7 @@ public class TypeMethodGraphGenerator {
 
 		buildIncludeProvider(specFileDir);
 		
-		processIndividualFiles(specFileDir, graphFileDir);
+//		processIndividualFiles(specFileDir, graphFileDir);
 		buildSingleGraph(specFileDir, graphFileDir);
 	}	
 	
