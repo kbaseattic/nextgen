@@ -1,0 +1,12 @@
+KBase Challenges and Obstacles
+==============================
+Dan Gunter <dkgunter@lbl.gov>
+v0.0.2, April 2015
+
+include::data.asciidoc[]
+
+include::engagement.asciidoc[]
+
+include::services.asciidoc[]
+
+include::ui.asciidoc[]
