@@ -3,10 +3,10 @@ KBase Challenges and Obstacles
 Dan Gunter <dkgunter@lbl.gov>
 v0.0.2, April 2015
 
-include::data.txt[]
+include::data.asciidoc[]
 
-include::engagement.txt[]
+include::engagement.asciidoc[]
 
-include::services.txt[]
+include::services.asciidoc[]
 
-include::ui.txt[]
+include::ui.asciidoc[]
