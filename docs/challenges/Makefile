@@ -1,2 +1,2 @@
 default:
-	asciidoc -a toc challenges.asciidoc
+	asciidoctor -a toc challenges.asciidoc
