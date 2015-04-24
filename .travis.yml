@@ -1,9 +1,6 @@
-language: python
-python:
-  - "2.7"
-# command to install dependencies
-install: ""
-# command to run tests
+language: ruby
+before_install:
+  - gem install asciidoctor
 script:
   - cd docs/challenges
   - make
