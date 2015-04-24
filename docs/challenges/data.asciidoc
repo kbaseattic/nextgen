@@ -8,28 +8,41 @@ Data Challenges
 List of challenges
 ~~~~~~~~~~~~~~~~~~
 
-- Sharing/granularity
-- Versioning
-- Narratives together with bio objs
-- References
-* shock vs. W.S. vs. CDS
-* permissions relaxed on refs
-* all refs hierarchical/one-way
-* data copies may not be complete
-- Types
-* ownership/namespacing
-* extensibility and evolution
-* polymorphism
-- CDMI API doesn't work
-- Reference data updates
-- Search
+Sharing/granularity:: The granularity of sharing is a workspace, not an object.
+This causes confusion at some levels of the system. The Narrative UI has
+hidden the concept of a workspace from the user entirely, which solves part of
+the problem.
+
+Versioning::
+
+Narratives together with bio objs::
+
+References::
+  * shock vs. W.S. vs. CDS
+  * permissions relaxed on refs
+  * all refs hierarchical/one-way
+  * data copies may not be complete
+
+Types::
+  * ownership/namespacing
+  * extensibility and evolution
+  * polymorphism
+
+CDMI API doesn't work well for accessing large data objects:: Search attempted to use it for extracting all the genome and feature  data out of the central store for indexing purposes. Dumping the tables turned out to
+be a more reliable and practical option. Future data apis and  implementations need to work more effectively for accessing large genomes in particular
+
+Reference data updates::
+
+Search::
 * Validation of raw data
 * Uniformity across data sources
-- Multiple copies of the data (ref. data in part.)
-* central store
-* WS copy
-* WS indexable copy
-* flat files (Solr)
-- Lack of subset capability -- always need to get entire obj
-- Sharing is all or nothing
+
+Multiple copies of the data:: Due to various difficulties in practical usage of components of the system, the reference data in particular is copied several times. This is obviously not optimal, so future systems should try to minimize this kind of behavior. Copies are in:
+  * central store 
+  * WS copy
+  * WS indexable copy
+  * flat files (Solr)
+
+Lack of subset capability:: One always need to get entire object. This is particularly painful when a large object like the Genome is being used as a container for smaller pieces of data that are used exclusively by other functions. The future system should make it natural to select only the part of the object that's 
+
 
