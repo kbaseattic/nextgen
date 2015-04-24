@@ -1,0 +1,12 @@
+KBase Challenges and Obstacles
+==============================
+Dan Gunter <dkgunter@lbl.gov>
+v0.0.2, April 2015
+
+include::data.txt[]
+
+include::engagement.txt[]
+
+include::services.txt[]
+
+include::ui.txt[]
