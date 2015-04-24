@@ -1,0 +1,16 @@
+[[service-challenges]]
+Services Challenges
+--------------------
+[horizontal]
+*Author*:: Fangfang Xia <fangfang@anl.gov>
+*Revised*:: April, 2015
+
+[NOTE]
+The following should be replaced by real content.
+
+List of challenges
+~~~~~~~~~~~~~~~~~~
+
+Name of challenge:: Description of challenge.
+More about the challenge.
+Another challenge:: Description of this challenge.
