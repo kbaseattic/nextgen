@@ -4,4 +4,7 @@ python:
 # command to install dependencies
 install: ""
 # command to run tests
-script: "echo OK"
+script:
+  - cd docs/challenges
+  - make
+  - cd ../..
