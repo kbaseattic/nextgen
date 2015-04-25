@@ -18,10 +18,14 @@ Versioning::
 Narratives together with bio objs::
 
 References::
-  * shock vs. W.S. vs. CDS
-  * permissions relaxed on refs
-  * all refs hierarchical/one-way
-  * data copies may not be complete
+  * Shock vs. W.S. vs. CDS
+  * Permissions relaxed on refs
+  * References are one-way in the sense that an object does not store information about all the
+    objects that reference it. This is due to the way references are implemented.
+    Sometimes navigating in the "reverse" of the original reference direction would be useful, and
+    the next system should implement references in such a way that this is possible without looking
+    at the entire tree.
+  * Data copies may not be complete
 
 Types::
   * ownership/namespacing
