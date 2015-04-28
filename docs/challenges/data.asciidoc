@@ -5,6 +5,8 @@ Data Challenges
 *Author*:: Matt Henderson
 *Revised*:: April, 2015
 
+*Contributors*: Shane Canon, Dan Gunter, Gavin Price, KBase team
+
 List of challenges
 ~~~~~~~~~~~~~~~~~~
 
@@ -18,14 +20,27 @@ Versioning::
 Narratives together with bio objs::
 
 References::
-  * Shock vs. W.S. vs. CDS
-  * Permissions relaxed on refs
-  * References are one-way in the sense that an object does not store information about all the
+  * *Shock vs. workspace vs. central store*: Different types of references, each with their own behavior due to different backends. It would be easier to have a unified set of semantics.
+  * *Permissions are "relaxed" on references*. If an object is referenced by a downstream object (e.g., an annotation is used to construct a model), then that referenced object is implicitly shared if the downstream object is sharereed. So even if they upstream object were kept private, it can be accessed via the downstream object. This is intentional because it was meant to support provenance. But it may be unclear to the user that this is the case.
++
+[caption="Example "]
+.where "relaxed" permissions could be a problem.
+===========================================================================================
+Imagine User A has a `reads` data set that is really important to them. They assemble, annotate and build a model from that. They share the model with a colleague (User B) to validate that the model is good. User B does some iteration on that and publishes, the world could potential access the raw data set now. But User A may have not intended for that to happen.
+===========================================================================================
++
+  * *References are one-way*, in the sense that an object does not store information about all the
     objects that reference it. This is due to the way references are implemented.
     Sometimes navigating in the "reverse" of the original reference direction would be useful, and
     the next system should implement references in such a way that this is possible without looking
     at the entire tree.
-  * Data copies may not be complete
+  * *Copies of data from the workspace shared with other people may not be "complete"*, from the perspective of the recipient. Workspace objects may reference things outside the workspace, including the central store or Shock. Some examples:
++
+  ** If the reference is to a shock node, that node is not owned by me, and the owner can in fact delete that node and I will never have access to that data.
+  ** If the reference is a shock reference and not a handle reference, that shock node is actually not shared with me and I can't even access it.
+  ** If the reference is an actual workspace reference, and the data is dependent, say for example Genome and ContigSet, you will not get a ContigSet object and a Genome object when you copy a Genome. You could make the argument that you may not need the ContigSet object, but even if you wanted it you actually can't get it. You could copy the ContigSet independently of the Genome, but those two objects (Genome copy and ContigSet copy) can never reference one another, even though they are byte equivalent to the original objects that in fact do reference one another.
++  
+In the end, this means that the semantics of what a copy means are different here than what people are accustomed to. A workspace copy here means that you get a new top level object with the same contents, including all references. This could be considered a shallow copy. You could also consider a deep copy, where all dependent data objects are also replicated on copy. It is not possible now to get a deep copy for workspace objects unless you do it manually (and, with shock etc. references, this may be non-trivial). Although under the hood it makes perfect sense to not duplicate bytes, especially for large data, the next system should implement copies so that they are functionally equivalent to the original.
 
 Types::
   * ownership/namespacing
