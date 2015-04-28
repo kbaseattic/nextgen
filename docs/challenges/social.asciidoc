@@ -1,0 +1,29 @@
+[[social-challenges]]
+Social Challenges
+-----------------
+
+[horizontal]
+*Author*:: Erik Pearson <eapearson@lbl.gov>
+*Revised*:: April, 2015
+
+Component communication
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+AA propagation:: There is no additional communication between the front-end and the auth (AA)
+services *after* login.  So, changes in the information made via the AA interfaces, _e.g._ user
+preferences, will not get propagated back to the front-end until the user
+logs out and logs back in again; why or when this is required may not be obvious, and it is inconvenient
+at any rate. Better coupling between the AA services and the front-end would
+remove this confusion and remove the necessity for logging out and in to refresh information.
+
+State communication:: Communicating the state within the UI is not done across webpages. State is held inside a given webpage, but users can have multiple copies (e.g. search uses
+localStorage). Need a mechanism for all views to discover changes in shared state.
+
+Dashboard
+~~~~~~~~~
+
+Dashboard performance:: Loading is slow due to need to get information from
+multiple services. The rendering itself is fast enough
+
+Dashboard personalization or extension:: This is currently not possible by ordinary
+users. Note: it's not clear that this capability is important to users.
