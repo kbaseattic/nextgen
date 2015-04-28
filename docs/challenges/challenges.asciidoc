@@ -5,10 +5,13 @@ v0.0.3, April 2015
 
 include::data.asciidoc[]
 
+include::devops.asciidoc[]
+
 include::engagement.asciidoc[]
 
 include::services.asciidoc[]
 
+include::social.asciidoc[]
+
 include::ui.asciidoc[]
 
-include::social.asciidoc[]

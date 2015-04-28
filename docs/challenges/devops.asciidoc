@@ -1,0 +1,23 @@
+[[devops-challenges]]
+DevOps Challenges
+-----------------
+
+[horizontal]
+*Author*:: Keith Keller <kkeller@lbl.gov>
+*Revised*:: April, 2015
+
+
+Deployment
+~~~~~~~~~~~
+
+Heavy deployment:: Services currently use a full virtual machine
+
+Difficult to allow developers to deploy their own mini-KBase for development purposes:: For example, narrative can be deployed locally, but services that a local deployment depends on are much harder
+
+Parallel deployment:: We want to be able to deploy the next version of a module without disrupting the current version, then run tests against the new deployment, then promote the new version only if tests pass
+
+Testing
+~~~~~~~
+
+Would like a process to populate dev environments with enough test data to be useful:: Probably should be done by service developers?
+
