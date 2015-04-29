@@ -260,7 +260,7 @@ public class TypeMethodGraphGenerator2{
 	 * @param type
 	 * @throws Exception
 	 */
-	private void processTypedef(Graph graph, Vertex rootNode, String edgeType, KbType type) throws Exception{
+	private void processTypedef(Graph graph, KbModule module, Vertex rootNode, String edgeType, KbType type) throws Exception{
 		
 		// Do not crete type-type edges if not needed 
 		if(!useType2TypeEdges) return;
@@ -279,7 +279,7 @@ public class TypeMethodGraphGenerator2{
 			Vertex node = buildNode(graph, typedef);
 			if(rootNode != null && node != null){
 				GraphHelper.addEdge(graph, nextEdgeId(), node, rootNode, edgeType
-						, "moduleName", typedef.getModule());
+						, "moduleName", module.getModuleName());
 			}
 			
 			// Do not process typedef further if it was processed before
@@ -296,11 +296,11 @@ public class TypeMethodGraphGenerator2{
 			// nothing to be done
 		} else if(type instanceof KbList){
 			KbList kbList = (KbList) type;
-			processTypedef(graph, rootNode, EDGE_TYPE_LIST_OF, kbList.getElementType());
+			processTypedef(graph, module, rootNode, EDGE_TYPE_LIST_OF, kbList.getElementType());
 		} else if (type instanceof KbMapping){
 			KbMapping kbMapping = (KbMapping) type;
-			processTypedef(graph, rootNode, EDGE_TYPE_HASH_KEY, kbMapping.getKeyType());
-			processTypedef(graph, rootNode, EDGE_TYPE_HASH_VALUE, kbMapping.getValueType());
+			processTypedef(graph, module, rootNode, EDGE_TYPE_HASH_KEY, kbMapping.getKeyType());
+			processTypedef(graph, module, rootNode, EDGE_TYPE_HASH_VALUE, kbMapping.getValueType());
 		} else if (type instanceof KbStruct){
 			KbStruct kbStruct = (KbStruct) type;			
 			if(typedef == null){
@@ -308,11 +308,10 @@ public class TypeMethodGraphGenerator2{
 			}			
 			// Try add edges for all subtypes 
 			for(KbStructItem item: kbStruct.getItems()){
-				processTypedef(graph, rootNode, EDGE_TYPE_SUBTYPE, item.getItemType());
+				processTypedef(graph, module, rootNode, EDGE_TYPE_SUBTYPE, item.getItemType());
 			}
 		}
 	}
-		
 	 
 	private static int _edgeId = 0;
 	private Integer nextEdgeId() {
@@ -338,7 +337,7 @@ public class TypeMethodGraphGenerator2{
 
 					if (comp instanceof KbTypedef) {
 						KbTypedef typedef = (KbTypedef) comp;
-						processTypedef(graph, null, null, typedef);
+						processTypedef(graph, module, null, null, typedef);
 					} else if (comp instanceof KbFuncdef) {
 						KbFuncdef func = (KbFuncdef) comp;
 						
@@ -349,7 +348,7 @@ public class TypeMethodGraphGenerator2{
 							if (paramType instanceof KbTypedef) {
 								
 								// try to add edges for subtypes
-								processTypedef(graph, null, null, paramType);
+								processTypedef(graph, module, null, null, paramType);
 
 								// Add type-method edge only if it was requested
 								if(useType2MethodEdges) {
@@ -365,7 +364,7 @@ public class TypeMethodGraphGenerator2{
 							if (returnType instanceof KbTypedef) {
 								
 								// try to add edges for subtypes
-								processTypedef(graph, null, null, returnType);
+								processTypedef(graph, module, null, null, returnType);
 
 								// Add type-method edge only if it was requested
 								if(useType2MethodEdges) {
