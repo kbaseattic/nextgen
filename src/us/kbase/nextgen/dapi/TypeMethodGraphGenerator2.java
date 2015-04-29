@@ -9,6 +9,7 @@ import java.io.StringReader;
 import java.io.Writer;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.output.WriterOutputStream;
@@ -312,7 +313,30 @@ public class TypeMethodGraphGenerator2{
 			}
 		}
 	}
-	 
+
+	private void aggregateTypedefs(KbType type, List<KbTypedef> typedefs){
+		if(type instanceof KbTypedef){
+			typedefs.add( (KbTypedef) type);
+		}		
+		else if(type instanceof KbScalar){
+			// nothing to be done
+		} else if(type instanceof KbList){
+			KbList kbList = (KbList) type;
+			aggregateTypedefs(kbList.getElementType(), typedefs);			
+		} else if (type instanceof KbMapping){
+			KbMapping kbMapping = (KbMapping) type;
+			aggregateTypedefs(kbMapping.getKeyType(), typedefs);
+			aggregateTypedefs(kbMapping.getValueType(), typedefs);
+		} else if (type instanceof KbStruct){
+			KbStruct kbStruct = (KbStruct) type;			
+			for(KbStructItem item: kbStruct.getItems()){
+				aggregateTypedefs(item.getItemType(), typedefs);
+			}
+		}		
+	}
+	
+	
+	
 	private static int _edgeId = 0;
 	private Integer nextEdgeId() {
 		return _edgeId++;
@@ -327,6 +351,7 @@ public class TypeMethodGraphGenerator2{
 	private void populateGraph(Graph graph, String specDocument)
 			throws Exception {
 		StringReader r = new StringReader(specDocument);
+		List<KbTypedef> mtTypedefs = new Vector<KbTypedef>();
 
 		Map<String, Map<String, String>> moduleToTypeToSchema = null;
 		Map<?, ?> parseMap = KidlParser.parseSpecInt(r, moduleToTypeToSchema,sip);
@@ -344,32 +369,36 @@ public class TypeMethodGraphGenerator2{
 						Vertex funcNode = buildNode(graph, module, func);
 
 						for (KbParameter param : func.getParameters()) {
-							KbType paramType = param.getType();
-							if (paramType instanceof KbTypedef) {
+							mtTypedefs.clear();
+							aggregateTypedefs(param.getType(), mtTypedefs);
+							
+							for(KbTypedef paramTypedef: mtTypedefs){
 								
 								// try to add edges for subtypes
-								processTypedef(graph, module, null, null, paramType);
+								processTypedef(graph, module, null, null, paramTypedef);
 
 								// Add type-method edge only if it was requested
 								if(useType2MethodEdges) {
 									// add edge for dataype-method connection
-									Vertex paramNode = buildNode(graph,(KbTypedef) paramType);
+									Vertex paramNode = buildNode(graph, paramTypedef);
 									GraphHelper.addEdge(graph, nextEdgeId(), paramNode, funcNode, EDGE_TYPE_METHOD_PARAM 
 											,  PROPERTY_MODULE_NAME, module.getModuleName());
 								}
 							}
 						}
 						for (KbParameter param : func.getReturnType()) {
-							KbType returnType = param.getType();
-							if (returnType instanceof KbTypedef) {
+							mtTypedefs.clear();
+							aggregateTypedefs(param.getType(), mtTypedefs);
+							
+							for(KbTypedef returnTypedef: mtTypedefs){
 								
 								// try to add edges for subtypes
-								processTypedef(graph, module, null, null, returnType);
+								processTypedef(graph, module, null, null, returnTypedef);
 
 								// Add type-method edge only if it was requested
 								if(useType2MethodEdges) {
 									// add edge for dataype-method connection
-									Vertex returnNode = buildNode(graph, (KbTypedef) returnType);
+									Vertex returnNode = buildNode(graph, returnTypedef);
 									GraphHelper.addEdge(graph, nextEdgeId(), funcNode, returnNode, EDGE_TYPE_METHOD_RETURN 
 											,  PROPERTY_MODULE_NAME, module.getModuleName());
 									
