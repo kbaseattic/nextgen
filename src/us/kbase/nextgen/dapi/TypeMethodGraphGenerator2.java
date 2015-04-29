@@ -60,6 +60,7 @@ public class TypeMethodGraphGenerator2{
 	private static final Object PROPERTY_MODULE_NAME = "moduleName";
 	private static final Object PROPERTY_TYPE_NAME = "typeName";
 	private static final Object PROPERTY_NODE_TYPE = "nodeType";
+	private static final Object PROPERTY_NODE_COMMENT = "comment";
 
 	/**
 	 * Whether the type-type should be taking into account  
@@ -213,7 +214,9 @@ public class TypeMethodGraphGenerator2{
 					, PROPERTY_MODULE_NAME, moduleName
 					, PROPERTY_TYPE_NAME, typeName
 					, PROPERTY_NODE_TYPE, NODE_TYPE_DATA
+					, PROPERTY_NODE_COMMENT, typedef.getComment() 
 					);
+			
 		}
 		return v;
 	}
@@ -230,6 +233,7 @@ public class TypeMethodGraphGenerator2{
 					, PROPERTY_MODULE_NAME, moduleName
 					, PROPERTY_TYPE_NAME, typeName
 					, PROPERTY_NODE_TYPE, NODE_TYPE_METHOD
+					, PROPERTY_NODE_COMMENT, funcdef.getComment() 					
 					);
 		}
 		return v;
