@@ -40,7 +40,7 @@ Responsiveness of User Interfaces:: Users should not wait more than a second for
 [[provenance]]
 Provenance:: The provenance of data should be discoverable, modulo the privacy policies. Related to <<versioning>>.
 
-Immutability:: Data used for published results should both be subject to change by anyone, as this may affect the integrity of derived works. Related to <<provenance>> and thus <<sharing>>.
+Immutability:: Data used for published results should not be subject to change by anyone, as this may affect the integrity of derived works. Related to <<provenance>> and thus <<sharing>>.
 
 
 Infrastructure requirements
