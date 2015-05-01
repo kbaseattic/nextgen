@@ -1,0 +1,57 @@
+Data Requirements
+-----------------
+[horizontal]
+*Author*:: Dan Gunter
+*Revised*:: April, 2015
+
+*Contributors*: Matt Henderson, Shane Canon, Dan Gunter, Gavin Price, KBase team
+
+[NOTE]
+==============================================
+This document is not complete. It is being
+shared at this early stage to facilitate open-
+ness and receive early feedback.
+==============================================
+
+Introduction
+~~~~~~~~~~~~
+
+This document is derived from the following sources:
+
+* The "Data challenges" document that can also be found in the kbase/nextgen github repo. At the time of this writing, the document is in `docs/challenges/data.asciidoc`. The challenges have been reorganized as necessary to make a coherent set of requirements
+* The list of queries found in `queries.md` in this directory.
+* Adam's https://docs.google.com/document/d/1YY7JwAdQY2bLWZl-VtTPV_K9erA8Vkak5NdXOVUQavQ/edit[Principles of Data in KBase] 
+
+The intent is to try and capture the best of all three into a set of requirements in a compact form that is closer to a set of JIRA sprints for prototyping and development. All faults with the resulting document is solely attributable to its author (Dan Gunter).
+
+Requirements
+~~~~~~~~~~~~
+
+Requirements are divided into infrastructure requirements and user-facing requirements. The former is for a robust, etc. system and the latter are the requirements that relate directly to the user experience. Where appropriate the links between the two have been noted.
+
+User-facing requirements
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[[sharing]]
+Consistent, intuitive sharing model:: TBD
+
+Responsiveness of User Interfaces:: Users should not wait more than a second for common, simple data operations. More complex operations (searches, etc.) can take longer. Feedback should be provided for any operation taking more than 10 or so seconds. This applies to all interfaces, not just the Narrative UI.
+
+[[provenance]]
+Provenance:: The provenance of data should be discoverable, modulo the privacy policies. Related to <<versioning>>.
+
+Immutability:: Data used for published results should not be subject to change by anyone, as this may affect the integrity of derived works. Related to <<provenance>> and thus <<sharing>>.
+
+
+Infrastructure requirements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Marshaling and unmarshaling:: KBase uses remote services to execute the biological functions. These services are ultimately the consumers and producers of most data of interest to KBase. It is essential that data can be efficiently and easily described and transferred in and out of these services. Whatever data representations exist in the data stores, "data types" that are recognized by the services must be represented as structured blocks of bytes. Technologies such as Thrift, Avro, and Protocol Buffers are all designed for this task. This means that any de-normalized or deconstructed data representation in a datastore, i.e. optimized for searches as described below, must be automatically and consistently isomorphic to the serialized representations.
+
+[[versioning]]
+Versioning:: Data versioning must be discoverable and rational. Changes that break backwards compatibility should be machine-understandable by versioning convention. The state of the art here is Semantic Versioning. However, this does not specify how to evolve versions across the system. The requirement also includes that there is a *single*, *easily understandable* source of truth for how data is versioned, and that all data in the system follows this protocol.
+
+Permissions:: The owner and other people with permissions on data should be handled by the system at a fundamental level, so that searches, etc. can be implemented efficiently while maintaining privacy guarantees. This *cannot* be implemented by ignoring privacy in the database and filtering results.
+
+Slicing and subsetting:: It must be possible to return a reasonably minimal subset of data needed for an operation, even if this requires creating temporary new objects that are subsets of defined data types.
+
