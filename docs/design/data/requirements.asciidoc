@@ -2,7 +2,7 @@ Data Requirements
 -----------------
 [horizontal]
 *Author*:: Dan Gunter
-*Revised*:: April, 2015
+*Revised*:: April-May, 2015
 
 *Contributors*: Matt Henderson, Shane Canon, Dan Gunter, Gavin Price, KBase team
 
@@ -28,46 +28,83 @@ Requirements
 ~~~~~~~~~~~~
 
 Requirements are divided into three types:
-* Science user-facing requirements - Relate directly to the user experience
-* External developer requirements - Enable addition to the system by other developers
-* Infrastructure requirements - Internal requirements of the system
 
+* <<science-req,Science user-facing requirements>> - Relate directly to the user experience
+* <<dev-req,External developer requirements>> - Enable addition to the system by other developers
+* <<impl-req,Infrastructure requirements>> - Internal requirements of the system
+
+[[science-req]]
 Science user-facing requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[sharing]]
-Consistent, intuitive sharing model:: There should be a well-defined relation to the existing laboratory and research sharing practices. In particular, research groups should map to data permission roles, and research projects should map to collections of narratives and associated data. The model should make it easy to share with people inside and outside of the group, with predictable results. The model should make it possible for people to join and leave, or change roles, for groups and projects without disrupting or invalidating the sharing that has already occurred.
+.Sharing model
+There should be a well-defined relation to the existing laboratory and research sharing practices. In particular, research groups should map to data permission roles, and research projects should map to collections of narratives and associated data. The model should make it easy to share with people inside and outside of the group, with predictable results. The model should make it possible for people to join and leave, or change roles, for groups and projects without disrupting or invalidating the sharing that has already occurred.
 
-Responsiveness of User Interfaces:: Users should not wait more than a second for common, simple data operations. More complex operations (searches, etc.) can take longer. Feedback should be provided for any operation taking more than 10 or so seconds. This applies to all interfaces, not just the Narrative UI.
+.Responsiveness of User Interfaces
+Users should not wait more than a second for common, simple data operations. More complex operations (searches, etc.) can take longer. Feedback should be provided for any operation taking more than 10 or so seconds. This applies to all interfaces, not just the Narrative UI.
 
 [[provenance]]
-Provenance:: The provenance of data should be discoverable, modulo the privacy policies. Related to <<versioning>>.
+.Provenance
+The provenance of data should be discoverable, modulo the privacy policies. Related to <<versioning,versionin>> (see also <<provenance-impl,provenance implementation>>).
 
-Immutability:: Data used for published results should not be subject to change by anyone, as this may affect the integrity of derived works. Related to <<provenance>> and thus <<sharing>>.
+.Immutability
+Data used for published results should not be subject to change by anyone, as this may affect the integrity of derived works. Related to <<provenance,provenance>> and thus <<sharing,sharing>>.
 
+[[sciencemodel]]
+.Conceptual data model
+There should be an accessible and well-documented conceptual data model that users can relate to the data that they are processing. This model can help query and browse the system as a "knowledge base" as opposed to a collection of user-defined objects.
 
+[[annotations]]
+.Annotations, comments, and evidence
+Users should be able to annotate work, as allowed by the <<permissions,permissions>> model, to indicate linkages or assert evidence. These annotations should persist in the system, and be discoverable, etc. Related to <<queries,queries>>.
+
+[[dev-req]]
 External developer requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[service-api]]
-Service creation:: Clearly documented interfaces for writing new services. Also a documented and available system for testing these services locally in the developer's own environment.
+.Service creation
+Clearly documented interfaces for writing new services. Also a documented and available system for testing these services locally in the developer's own environment.
 
 [[data-api]]
-Data API:: There should be a consistent, clear, and well-documented set of generic and biology-specific functions, available as an API for major supported languages (e.g. Java, Python, and PERL). This API should be usable from within the services, and within the Narrative UI code cells.
+.Data API
+There should be a consistent, clear, and well-documented set of generic and biology-specific functions, available as an API for major supported languages (e.g. Java, Python, and PERL). This API should be usable from within the services, and within the Narrative UI code cells.
 
 [[extensibility]]
-Independent extensibility:: It should be possible for external developers to understand and extend the KBase data types, execution models, etc., to incorporate new types of functionality. There would be a set of rules of engagement for developers to advertise this functionality and ask for it to be integrated into the core KBase.
+.Independent extensibility
+It should be possible for external developers to understand and extend the KBase data types, execution models, etc., to incorporate new types of functionality. There would be a set of rules of engagement for developers to advertise this functionality and ask for it to be integrated into the core KBase.
 
+[[sciencemodel-ext]]
+.Concept extensibility
+The conceptual data model at the core of KBase should be extensible through a well-define process of proposal and acceptance. This relatively heavy-weight process should not prevent developers from adding to the conceptual model in their local development environment. Related to <<sciencemodel,the conceptual data model>>.
+
+[[impl-req]]
 Infrastructure requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Marshaling and unmarshaling:: KBase uses remote services to execute the biological functions. These services are consumers and producers of most data of interest to KBase. It is essential that data can be efficiently and easily described and transferred in and out of these services.
+.Marshaling and unmarshaling
+KBase uses remote services to execute the biological functions. These services are consumers and producers of most data of interest to KBase. It is essential that data can be efficiently and easily described and transferred in and out of these services.
 
 [[versioning]]
-Versioning:: Data versioning must be discoverable and rational. Changes that break backwards compatibility should be machine-understandable by versioning convention. The state of the art here is Semantic Versioning. However, this does not specify how to evolve versions across the system. The requirement also includes that there is a *single*, *easily understandable* source of truth for how data is versioned, and that all data in the system follows this protocol.
+.Versioning
+Data versioning must be discoverable and rational. Changes that break backwards compatibility should be machine-understandable by versioning convention. The state of the art here is Semantic Versioning. However, this does not specify how to evolve versions across the system. The requirement also includes that there is a *single*, *easily understandable* source of truth for how data is versioned, and that all data in the system follows this protocol.
 
 [[permissions]]
-Permissions:: The owner and other people with permissions on data should be handled by the system at a fundamental level, so that searches, etc. can be implemented efficiently while maintaining privacy guarantees. This *cannot* be implemented by ignoring privacy in the database and filtering results. Related to <<sharing>>.
+.Permissions
+The owner and other people with permissions on data should be handled by the system at a fundamental level, so that searches, etc. can be implemented efficiently while maintaining privacy guarantees. This *cannot* be implemented by ignoring privacy in the database and filtering results. Related to <<sharing,sharing>>.
 
-Slicing and subsetting:: It must be possible to return a reasonably minimal subset of data needed for an operation, even if this requires creating temporary new objects (i.e. "views") that are subsets of defined data types.
+.Slicing and subsetting
+It must be possible to return a reasonably minimal subset of data needed for an operation, even if this requires creating temporary new objects (i.e. "views") that are subsets of defined data types.
 
+[[sciencemodel-impl]]
+.Data model
+The data objects should all be connected to the conceptual data model.
+
+[[queries]]
+.Queries
+A wide variety of queries should be allowed of the system. In particular, queries should be able to cross current "boundaries" of data about the users, their data, reference data, annotations and evidence (see <<annotations,annotations>> and <<provenance,provenance>>, <<provenance-impl,the provenance implementation>>).
+
+[[provenance-impl]]
+.Provenance implementation
+The provenance needs to be stored logically "with" the data, so it can be queried and updated along with the data objects themselves.
