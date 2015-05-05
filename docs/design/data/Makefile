@@ -1,6 +1,9 @@
 outputs=$(patsubst %.asciidoc,%.html,$(wildcard *.asciidoc))
 
-all: asciidoc
+all: ghpages
+
+ghpages: asciidoc
+	mv *.html ../../../../docs-ghpages/docs
 
 asciidoc: $(outputs)
 
