@@ -1,0 +1,61 @@
+= Data Sharing
+:author: Dan Gunter, Gavin Price, Matt Henderson, KBase team
+:revised: May 2015
+
+The purpose of this document is to summarize the state and plans for data sharing.
+This is not the first document to do this, nor will it be the last.
+The contributions of many people has been important to writing this document;
+faults in the resulting content are the responsibility of the first author (Dan Gunter).
+
+== Sharing model
+
+[[img-sharing]]
+.Sharing model ER diagram
+image::data-sharing-0_1.png[Data Sharing, 513, 493]
+
+Given this model, below is a table showing how the roles (shown as attributes) map to permissions on the data and administrative permissions (on users and their roles):
+
+.Sharing model Role/Permissions table
+|===
+|Role|Data permissions|Admin permissions
+
+|Leader
+|R/W
+|R
+
+|Admin
+|R/W
+|R/W
+
+|Participant
+|R/W
+|x
+
+|Guest
+|R
+|x
+|===
+
+== Transitive sharing discussion
+
+Issue: When user Alice shares X with Bob, and Bob derives Y from X and shares Y with Carol, then in order to see the full provenance of Y the system needs to let Carol see X, whether or not Alice has shared it with her directly.
+
+Solution: Sharing is transitive across Derived-from links without regard to object permissions, so that in the example above Carol can always see X if she has permission to see Y. This preserves transparency. However, users have the option to do another kind of sharing, which we called "radius 1" but I would now call "non-transitive". If Alice shared X non-transitively with Bob, then Bob could create Y but could not share Y with anyone else.
+
+Put another way, imagine a `share(obj, person)` operation with a `transitive` flag on an object. Then, the following sequence is legal:
+
+    Alice: x.transitive = True
+    Alice: share(x, 'Bob')
+    Bob: y = f(x)
+    Bob: share(y, 'Carol') 
+
+But, the following sequence is not:
+
+    Alice: x.transitive = False
+    Alice: share(x, 'Bob')
+    Bob: y = f(x)
+    Bob: share(y, 'Carol') # ERROR! 
+
+Note that in this discussion, the "object" could be some collection of objects, e.g. a subpath of the Path described above. Also, individual people might be replaced by groups of people, or roles in a RBAC model.
+
+We noted that all this sharing stuff could be circumvented by downloading the raw data. You _could_ prevent download of the data as part of the sharing model, but it does mean that you have to go down a much more complicated path of defining individual policies for how data can be used, no just also shared with others.  But at least having the non-transitive share would tell your collaborator that they would need to circumvent your wishes to share the data, which yes bad users could do bad things, but the social aspect would help reinforce that.  I think this point in particular is worth talking to more people about.
