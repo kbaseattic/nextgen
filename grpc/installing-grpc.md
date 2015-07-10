@@ -1,8 +1,8 @@
-Installing grpc + Python on Mac OSX
+# Installing grpc + Python on Mac OSX
 
 1. make a Python virtual environment
 
-mkvirtualenv --python=python2.7 grpc
+    mkvirtualenv --python=python2.7 grpc
 
 2. make a parent directory
 
