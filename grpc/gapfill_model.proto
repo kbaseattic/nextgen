@@ -1,0 +1,119 @@
+// Experimental manual mapping of gapfill_model to gRPC/Protocol buffers
+syntax = "proto3";
+
+package kbase_core;
+
+// Generic message types
+
+message Term {
+	double coefficient = 1;
+	string varType = 2;
+	string variable = 3;
+}
+
+message Bound {
+	double min = 1;
+	double max = 2;
+	string varType = 3;
+	string variable = 4;			
+}
+
+message Constraint {
+	double rhs = 1;
+	string sign = 2;
+	repeated Term terms = 3;
+	string name = 4;	
+}
+
+// ============================================
+// gapfill_model
+// ============================================
+
+service fba_model {
+  // The gapfill_model() method
+  rpc gapfill_model (GapfillModelParams) returns (ModelMetadata) {}
+}
+
+// Parameters for gapfill_model()
+message GapfillModelParams {
+	// Formulation for a gapfill model
+	message Formulation {
+		// Formulation for gapfilled FBA model
+		message FBAFormulation {
+			string media_id = 1;
+			repeated string addn_compound_id = 2; //additional compound ids
+			string promconstraint_id = 3;
+			string promconstraint_workspace_id = 4;
+			string eflux_sample_id= 5;
+			string eflux_series_id = 6;
+			string eflux_workspace_id = 7;
+			string media_workspace = 8;
+			double objfraction = 9;
+			bool allreversible = 10;
+			bool maximize_objective = 11;
+			repeated Term objective_terms = 12;
+			repeated string geneko = 13; // feature ids
+			repeated string rxnko = 14; // feature ids
+			repeated Bound bounds = 15;
+			repeated Constraint constraints = 16;
+			map<string,double> uptakelim = 17;
+			double defaultmaxflux = 18;
+			double defaultminuptake = 19;
+			double defaultmaxuptake = 20;
+			bool simplethermoconst = 21;
+			bool thermoconst = 22;
+			bool nothermoerror = 23;
+			bool minthermoerror = 24;
+		}
+		FBAFormulation fba = 1;
+		int32 num_solutions = 2;
+		bool nomediahyp = 3;
+		bool nobiomasshyp = 4;
+		bool nogprhyp = 5;
+		bool nopathwayhyp = 6;
+		bool allowunbalanced = 7;
+		double activitybonus = 8;
+		double drainpen = 9;
+		double directionpen = 10;
+		double nostructpen = 11;
+		double unfavorablepen = 12;
+		double nodeltagpen = 13;
+		double biomasstranspen = 14;
+		double singletranspen = 15;
+		double transpen = 16;
+		repeated string blacklistedrxns = 17;
+		repeated string gauranteedrxns = 18;
+		repeated string allowedcmps = 19;
+		string probanno_id = 20; // probabilistic annotation
+		string probanno_workspace_id = 21; // probabilistic annotation workspace
+	}
+	string model_id = 1;
+	string model_workspace_id = 2;
+	Formulation formulation = 3;
+	string phenotype_set_id = 4;
+	string phenotype_set_workspace_id = 5;
+	bool integrate_solution = 6;
+	repeated string target_reactions = 7;
+	string out_model_id = 8;
+	string workspace_id = 9;
+	string gapfill_id = 10;
+	uint32 timePerSolution = 11;
+	uint32 totalTimeLimit = 12;
+	string auth = 13;
+	bool overwrite = 14;
+	bool completeGapfill = 15;
+}
+
+message ModelMetadata {
+	string object_id = 1;
+	string object_type = 2;
+	string moddate = 3;
+	uint32 instance = 4;
+	string command = 5;
+	string last_modifier_user = 6;
+	string owner = 7;
+	string workspace_id = 8;
+	string workspace_ref = 9;
+	string chsum = 10;
+	map<string,string> metadata = 11;
+}
