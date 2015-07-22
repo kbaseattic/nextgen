@@ -14,6 +14,7 @@ This repository is a collection point for KBase documents and code experiments (
 * [diagrams](diagrams/) - Architecture and design diagrams
     * `diagrams/YYYY-MM-DD/*.graffle` - Omnigraffle source for diagrams, placed in directories by rough "era" at which they were created
     * `diagrams/YYYY-MM-DD/*.png` - Exported images for diagrams
+* [grpc](grpc/) - Some experiments using gRPC
 
 Diagrams were created with Omnigraffle 6
 
