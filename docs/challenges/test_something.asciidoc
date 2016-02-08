@@ -1,3 +1,5 @@
 I wonder if this will work
 
 asciimath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
+
++++`sum_(i=1)\^n i=(n(n+1))/2`$+++
