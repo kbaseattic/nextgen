@@ -1,0 +1,714 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.analysis_event_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>analysis_event_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_strep_pneumo_repeat">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_strep_pneumo_repeat</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_CDS_SEED_projection">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_CDS_SEED_projection</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_function_pairs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_function_pairs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.find_close_neighbors">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>find_close_neighbors</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_role_pair">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_role_pair</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.glimmer3_parameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>glimmer3_parameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_tRNA_trnascan">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_tRNA_trnascan</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.reconstructionTO_to_roles">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>reconstructionTO_to_roles</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.compute_cdd">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>compute_cdd</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_metadata">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_metadata</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.pipeline_batch_status_entry">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>pipeline_batch_status_entry</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_CDS_genemark">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_CDS_genemark</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.add_features">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>add_features</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.similarity_parameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>similarity_parameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.variant_subsystem_pairs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>variant_subsystem_pairs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.default_workflow">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>default_workflow</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.resolve_overlapping_features">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>resolve_overlapping_features</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_scan_for_matches">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_scan_for_matches</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genomeTO">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genomeTO</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.genomeTO_to_feature_data">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>genomeTO_to_feature_data</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_rRNA_SEED">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_rRNA_SEED</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_pyrrolysoproteins">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_pyrrolysoproteins</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contig">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contig</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.reconstructionTO_to_subsystems">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>reconstructionTO_to_subsystems</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_repeat_region_SEED">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_repeat_region_SEED</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_quality_measure">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_quality_measure</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_selenoproteins">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_selenoproteins</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.create_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>create_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_quality_measure">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_quality_measure</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.region_of_dna">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>region_of_dna</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_role_pairs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_role_pairs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_ProtoCDS_kmer_v1">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_ProtoCDS_kmer_v1</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_RNAs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_RNAs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.export_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>export_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_crispr">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_crispr</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.add_contigs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>add_contigs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.reconstructionTO">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>reconstructionTO</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.create_genome_from_RAST">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>create_genome_from_RAST</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.run_pipeline">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>run_pipeline</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_CDS_FragGeneScan">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_CDS_FragGeneScan</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.pipeline_batch_start">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>pipeline_batch_start</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.variant_of_subsystem">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>variant_of_subsystem</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_insertion_sequences">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_insertion_sequences</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.annotate_proteins_similarity">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>annotate_proteins_similarity</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.complete_workflow_template">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>complete_workflow_template</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.analysis_event">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>analysis_event</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.annotate_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>annotate_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.renumber_features">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>renumber_features</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.close_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>close_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_data_tuple">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_data_tuple</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.assign_functions_to_CDSs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>assign_functions_to_CDSs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.pipeline_stage">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>pipeline_stage</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.annotate_proteins_kmer_v2">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>annotate_proteins_kmer_v2</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_function_pair">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_function_pair</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.set_metadata">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>set_metadata</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.resolve_overlapping_features_parameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>resolve_overlapping_features_parameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.workflow">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>workflow</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_CDS_glimmer3">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_CDS_glimmer3</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.fid_data_tuples">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>fid_data_tuples</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_selenoprotein">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_selenoprotein</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_prophage_phispy">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_prophage_phispy</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Handle">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Handle</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_strep_suis_repeat">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_strep_suis_repeat</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.annotate_proteins">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>annotate_proteins</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.kmer_v2_parameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>kmer_v2_parameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_CDS_prodigal">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_CDS_prodigal</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_type">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_type</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contig_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contig_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.genomeTO_to_reconstructionTO">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>genomeTO_to_reconstructionTO</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.pipeline_batch_status">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>pipeline_batch_status</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.kmer_v1_parameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>kmer_v1_parameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.location">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>location</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.bool">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>bool</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.update_functions">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>update_functions</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.add_contigs_from_handle">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>add_contigs_from_handle</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.pipeline_batch_input">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>pipeline_batch_input</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.md5">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>md5</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.create_genome_from_SEED">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>create_genome_from_SEED</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.annotate_proteins_kmer_v1">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>annotate_proteins_kmer_v1</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.md5s">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>md5s</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.repeat_region_SEED_parameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>repeat_region_SEED_parameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.compute_special_proteins">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>compute_special_proteins</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.estimate_crude_phylogenetic_position_kmer">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>estimate_crude_phylogenetic_position_kmer</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_ProtoCDS_kmer_v2">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_ProtoCDS_kmer_v2</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.annotation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>annotation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.call_features_pyrrolysoprotein">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>call_features_pyrrolysoprotein</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="F.add_contigs" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.run_pipeline" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.analysis_event_id" target="D.feature">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.annotate_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.add_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.repeat_region_SEED_parameters" target="F.call_features_repeat_region_SEED">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_crispr">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.reconstructionTO" target="F.reconstructionTO_to_roles">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.genomeTO_to_reconstructionTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_quality_measure" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_tRNA_trnascan" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_repeat_region_SEED">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_prophage_phispy" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.default_workflow" target="D.workflow">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.glimmer3_parameters" target="F.call_features_CDS_glimmer3">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.estimate_crude_phylogenetic_position_kmer">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_selenoproteins">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.annotate_proteins_similarity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.fid_data_tuple" target="D.fid_data_tuples">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contig_id" target="D.contig">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.md5" target="D.md5s">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.resolve_overlapping_features_parameters" target="F.resolve_overlapping_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.variant_of_subsystem" target="D.variant_subsystem_pairs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_strep_suis_repeat" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kmer_v2_parameters" target="F.annotate_proteins_kmer_v2">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_CDS_prodigal">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_CDS_genemark">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_genome_from_RAST" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.repeat_region_SEED_parameters" target="D.pipeline_stage">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.feature_quality_measure">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.renumber_features" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_crispr" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.genome_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.pipeline_stage" target="D.workflow">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_selenoprotein">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_scan_for_matches">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.annotate_proteins_kmer_v2" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.fid_role_pair" target="D.fid_role_pairs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workflow" target="F.pipeline_batch_start">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.close_genome" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contig" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.feature_quality_measure">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.pipeline_batch_status_entry">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_pyrrolysoproteins" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.feature_quality_measure">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.annotate_proteins_kmer_v1">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.analysis_event" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.set_metadata" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.fid_function_pair" target="D.fid_function_pairs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_strep_pneumo_repeat" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_genome" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kmer_v1_parameters" target="F.annotate_proteins_kmer_v1">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.analysis_event_id" target="D.analysis_event">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.run_pipeline">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_rRNA_SEED" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_prophage_phispy">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_scan_for_matches" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.region_of_dna" target="D.location">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.add_contigs_from_handle">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.set_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.fid_function_pairs" target="D.reconstructionTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.reconstructionTO_to_subsystems" target="D.variant_subsystem_pairs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_CDS_FragGeneScan">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.update_functions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_quality_measure" target="D.feature">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kmer_v2_parameters" target="D.pipeline_stage">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kmer_v1_parameters" target="D.pipeline_stage">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.annotation" target="D.feature">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_ProtoCDS_kmer_v1" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.pipeline_batch_status_entry">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_strep_suis_repeat">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.resolve_overlapping_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_pyrrolysoproteins">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.add_features" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.workflow" target="F.run_pipeline">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.find_close_neighbors" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_CDS_SEED_projection" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.assign_functions_to_CDSs" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.add_contigs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_CDS_glimmer3" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.update_functions" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_CDS_FragGeneScan" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.complete_workflow_template" target="D.workflow">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.fid_role_pairs" target="D.reconstructionTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.annotate_proteins_kmer_v2">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.annotate_genome" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.annotate_proteins" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.pipeline_batch_status" target="D.pipeline_batch_status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_CDS_genemark" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.contig">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.assign_functions_to_CDSs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.annotate_proteins">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.resolve_overlapping_features" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.genomeTO_to_reconstructionTO" target="D.reconstructionTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.pipeline_batch_status_entry" target="D.pipeline_batch_status">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_selenoproteins" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_RNAs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.annotate_proteins_similarity" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.genomeTO_to_feature_data">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_metadata" target="F.set_metadata">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.similarity_parameters" target="F.annotate_proteins_similarity">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_CDS_glimmer3">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.compute_special_proteins">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_pyrrolysoprotein">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.find_close_neighbors">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_ProtoCDS_kmer_v2" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.compute_cdd">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.location" target="D.feature">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.close_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.pipeline_batch_status_entry">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.reconstructionTO" target="F.reconstructionTO_to_subsystems">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_ProtoCDS_kmer_v2">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_selenoprotein" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.glimmer3_parameters" target="D.pipeline_stage">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.genomeTO_to_feature_data" target="D.fid_data_tuples">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_RNAs" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_repeat_region_SEED" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_ProtoCDS_kmer_v1">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.feature_quality_measure">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.annotate_proteins_kmer_v1" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_rRNA_SEED">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.export_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_CDS_SEED_projection">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.variant_subsystem_pairs" target="D.reconstructionTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.create_genome_from_SEED" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_metadata" target="F.create_genome">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.bool" target="D.feature_quality_measure">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_CDS_prodigal" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_pyrrolysoprotein" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Handle" target="D.pipeline_batch_input">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_tRNA_trnascan">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.similarity_parameters" target="D.pipeline_stage">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kmer_v2_parameters" target="F.call_features_ProtoCDS_kmer_v2">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.feature">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_insertion_sequences">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kmer_v1_parameters" target="F.call_features_ProtoCDS_kmer_v1">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.renumber_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genomeTO" target="F.call_features_strep_pneumo_repeat">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.add_contigs_from_handle" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_type" target="D.feature">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.analysis_event" target="F.update_functions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.call_features_insertion_sequences" target="D.genomeTO">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

@@ -1,0 +1,82 @@
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/CDMI-API.spec
+us.kbase.kidl.KidlParseException: Encountered " "optional" "optional "" at line 214, column 20.
+Was expecting:
+    <S_IDENTIFIER> ...
+    
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/CDMI-EntityAPI.spec
+us.kbase.kidl.KidlParseException: Error at line 1942, column 18: Name duplication for field [id]
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/coex_net.spec
+us.kbase.kidl.KidlParseException: Error at line 24, column 17: Can not find type: dataset_source_ref
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/fbaModelServices.spec
+us.kbase.kidl.KidlParseException: Error at line 2571, column 7: Can not match path model_reaction_kbid in searchable annotation to any field in actual structure
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/lookup_features.spec
+us.kbase.kidl.KidlParseException: Encountered " "typedef" "typedef "" at line 9, column 1.
+Was expecting one of:
+    <EOF> 
+    "module" ...
+    <INCLUDE_LITERAL> ...
+    
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/Metabolome.spec
+us.kbase.kidl.KidlParseException: Error at line 35, column 45: Can not find type: measurement
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/NarrativeMethodStore.spec
+us.kbase.kidl.KidlParseException: Encountered " "optional" "optional "" at line 220, column 17.
+Was expecting:
+    <S_IDENTIFIER> ...
+    
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/original.spec
+us.kbase.kidl.KidlParseException: Encountered " <S_IDENTIFIER> "Hey "" at line 1, column 1.
+Was expecting one of:
+    <EOF> 
+    "module" ...
+    <INCLUDE_LITERAL> ...
+    
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)
+
+>/kb/dev_container/modules/nextgen/diagrams/typespecs/specs_typecomp/RegulatoryFBA.spec
+us.kbase.kidl.KidlParseException: Encountered " "typedef" "typedef "" at line 22, column 5.
+Was expecting:
+    ";" ...
+    
+	at us.kbase.kidl.KidlParser.parseSpecInt(KidlParser.java:89)
+	at us.kbase.nextgen.dapi.SpecFilesTester.processSpecFile(SpecFilesTester.java:86)
+	at us.kbase.nextgen.dapi.SpecFilesTester.run(SpecFilesTester.java:48)
+	at us.kbase.nextgen.dapi.SpecFilesTester.main(SpecFilesTester.java:116)

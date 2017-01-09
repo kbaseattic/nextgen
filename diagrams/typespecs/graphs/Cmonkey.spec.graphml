@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.network_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>network_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gene_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gene_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_sample_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_sample_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CmonkeyMotif">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CmonkeyMotif</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CmonkeyRunParameters">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CmonkeyRunParameters</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CmonkeyRunResult">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CmonkeyRunResult</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.MastHit">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MastHit</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CmonkeyNetwork">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CmonkeyNetwork</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CmonkeyCluster">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CmonkeyCluster</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.MemeSite">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>MemeSite</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_series_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_series_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.run_cmonkey">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>run_cmonkey</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.operons_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>operons_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_ws_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_ws_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.CmonkeyNetwork" target="D.CmonkeyRunResult">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CmonkeyRunParameters" target="D.CmonkeyRunResult">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.operons_ws_ref" target="D.CmonkeyRunParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_sample_ws_ref" target="D.CmonkeyCluster">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CmonkeyRunParameters" target="F.run_cmonkey">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ws_ref" target="D.CmonkeyRunParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gene_id" target="D.CmonkeyCluster">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.network_ws_ref" target="D.CmonkeyRunParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CmonkeyMotif" target="D.CmonkeyCluster">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.MastHit" target="D.CmonkeyMotif">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_series_ws_ref" target="D.CmonkeyRunParameters">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CmonkeyCluster" target="D.CmonkeyNetwork">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.MemeSite" target="D.CmonkeyMotif">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

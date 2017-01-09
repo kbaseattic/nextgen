@@ -1,0 +1,1020 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="D.denominator_sample_comparison">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>denominator_sample_comparison</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqDifferentialExpressionFile">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqDifferentialExpressionFile</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_series_external_source_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_series_external_source_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.log2_ratio">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>log2_ratio</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.strain_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>strain_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_types">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_types</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_ontology_terms">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_ontology_terms</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.samples_float_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>samples_float_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_data_warnings">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_data_warnings</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.external_source_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>external_source_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_warnings">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_warnings</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_experimental_unit_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_experimental_unit_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqSampleAlignmentSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqSampleAlignmentSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.person_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>person_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_molecules">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_molecules</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_series_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_series_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.experimental_unit_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>experimental_unit_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_sample_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_sample_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.series_string_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>series_string_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Person">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Person</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.series_expression_data_samples_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>series_expression_data_samples_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gse_samples">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gse_samples</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gse_warnings">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gse_warnings</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_on_off_calls">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_on_off_calls</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.experiment_meta_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>experiment_meta_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_genome_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_genome_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExpressionReplicateGroup">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExpressionReplicateGroup</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_platform_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_platform_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_series_summaries">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_series_summaries</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_data_errors">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_data_errors</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqDifferentialExpression">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqDifferentialExpression</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_sample_measurement_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_sample_measurement_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExpressionOntologyTerm">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExpressionOntologyTerm</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_ids_averaged_from">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_ids_averaged_from</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.data_sample_comparison">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>data_sample_comparison</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_annotation_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_annotation_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_series_ids_by_series_external_source_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_series_ids_by_series_external_source_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.comparison_denominator_label">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>comparison_denominator_label</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.data_expression_levels_for_sample">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>data_expression_levels_for_sample</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contact_first_name">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contact_first_name</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_GEO_GSE">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_GEO_GSE</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.person_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>person_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_name">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_name</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.kbase_genome_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>kbase_genome_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_comparison_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_comparison_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_data_by_feature_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_data_by_feature_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_data">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_data</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_expression_sample_ids_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_expression_sample_ids_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_series_designs">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_series_designs</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.compare_samples_vs_the_average">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>compare_samples_vs_the_average</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contact_people">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contact_people</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_titles">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_titles</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.compare_samples_vs_default_controls">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>compare_samples_vs_default_controls</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.genome_expression_data_samples_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>genome_expression_data_samples_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqDifferentialExpressionSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqDifferentialExpressionSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.SampleAnnotation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>SampleAnnotation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_descriptions">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_descriptions</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.wild_type_only">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>wild_type_only</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.experiment_meta_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>experiment_meta_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FullMeasurement">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FullMeasurement</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.compare_samples">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>compare_samples</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqSamplesMetaData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqSamplesMetaData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.samples_string_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>samples_string_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExpressionSeries">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExpressionSeries</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.strain_expression_data_samples_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>strain_expression_data_samples_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data_by_experiment_meta_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data_by_experiment_meta_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contact_last_name">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contact_last_name</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data_by_strain_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data_by_strain_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GsmObject">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GsmObject</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_sample_characteristics">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_sample_characteristics</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.shock_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>shock_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_float_data_table_by_samples_and_features">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_float_data_table_by_samples_and_features</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.strain_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>strain_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_data_samples_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_data_samples_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExpressionSample">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExpressionSample</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ContactPerson">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ContactPerson</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_data_by_samples_and_features">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_data_by_samples_and_features</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GPL">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GPL</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GseObject">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GseObject</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_expression_data_sample_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_expression_data_sample_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_type">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_type</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_external_source_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_external_source_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GenomeDataGSM">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GenomeDataGSM</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.experimental_unit_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>experimental_unit_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data_by_series_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data_by_series_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Protocol">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Protocol</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.shock_url">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>shock_url</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExpressionPlatform">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExpressionPlatform</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gse_errors">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gse_errors</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_series_titles">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_series_titles</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_experiment_meta_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_experiment_meta_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_strain_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_strain_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contact_email">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contact_email</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.external_source_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>external_source_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.series_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>series_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_series_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_series_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.experiment_meta_expression_data_samples_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>experiment_meta_expression_data_samples_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_errors">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_errors</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Strain">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Strain</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data_by_genome_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data_by_genome_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_sample_external_source_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_sample_external_source_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_definition">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_definition</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.label_data_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>label_data_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_ontology_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_ontology_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FloatDataTable">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FloatDataTable</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_float_data_table_by_genome">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_float_data_table_by_genome</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ontology_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ontology_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_sample_ids_by_platform_external_source_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_sample_ids_by_platform_external_source_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.contact_institution">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>contact_institution</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_measurement_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_measurement_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.measurement">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>measurement</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.series_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>series_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.persons">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>persons</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqSampleAlignment">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqSampleAlignment</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.ExpressionDataSample">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>ExpressionDataSample</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.shock_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>shock_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_top_changers">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_top_changers</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqSamplesSet">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqSamplesSet</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_original_log2_medians">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_original_log2_medians</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.gsm_data_set">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>gsm_data_set</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data_by_ontology_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data_by_ontology_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.feature_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>feature_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqSample">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqSample</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.expression_sample_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>expression_sample_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_expression_samples_data_by_experimental_unit_ids">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_expression_samples_data_by_experimental_unit_ids</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.sample_annotations">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>sample_annotations</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.experimental_unit_expression_data_samples_mapping">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>experimental_unit_expression_data_samples_mapping</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RNASeqSampleMetaData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RNASeqSampleMetaData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.series_ids" target="F.get_expression_series_summaries">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids_averaged_from" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.data_expression_levels_for_sample" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_ids" target="F.get_expression_float_data_table_by_samples_and_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ids" target="F.get_expression_samples_data_by_genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.strain_id" target="D.strain_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.persons" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_ids" target="F.get_expression_series_external_source_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_ontology_terms" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqSampleMetaData" target="D.RNASeqSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_data_by_samples_and_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_genome_id" target="D.ExpressionPlatform">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_ref" target="D.RNASeqDifferentialExpressionFile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_platform_id" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_people" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data_by_experimental_unit_ids" target="D.experimental_unit_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experiment_meta_id" target="D.experiment_meta_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_samples_data_by_genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.person_id" target="D.person_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_first_name" target="D.ContactPerson">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_ids" target="F.get_expression_sample_ids_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experimental_unit_id" target="D.experimental_unit_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.wild_type_only" target="F.get_expression_samples_data_by_genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gse_errors" target="D.GseObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_float_data_table_by_samples_and_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_external_source_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_url" target="D.shock_ref">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.wild_type_only" target="F.get_expression_data_by_feature_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.data_sample_comparison">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_sample_ids" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_titles">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GenomeDataGSM" target="D.gsm_data">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experiment_meta_id" target="D.experiment_meta_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_id" target="D.ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.log2_ratio" target="D.data_sample_comparison">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gse_warnings" target="D.GseObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_ids" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gse_samples" target="D.GseObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_errors" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.compare_samples_vs_default_controls">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ExpressionDataSample" target="D.expression_data_samples_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_genome_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GsmObject" target="D.gse_samples">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.feature_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.SampleAnnotation" target="D.sample_annotations">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.sample_measurement_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_genome_id" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.data_sample_comparison" target="D.denominator_sample_comparison">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.strain_ids" target="F.get_expression_sample_ids_by_strain_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.external_source_id" target="D.external_source_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data_by_ontology_ids" target="D.ontology_expression_data_sample_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqSampleMetaData" target="D.RNASeqSamplesMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.strain_id" target="D.strain_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_name" target="D.SampleAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_ids" target="F.get_expression_sample_ids_by_genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_data">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.compare_samples_vs_the_average" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_samples_map" target="D.series_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.external_source_ids" target="F.get_expression_series_ids_by_series_external_source_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_float_data_table_by_genome" target="D.FloatDataTable">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_institution" target="D.ContactPerson">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_warnings" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GPL" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_measurement_mapping" target="D.feature_sample_measurement_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_series_designs" target="D.series_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data_by_experiment_meta_ids" target="D.experiment_meta_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_samples_data_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqSampleAlignment" target="D.RNASeqSampleAlignmentSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_ids" target="F.get_expression_samples_data_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.compare_samples" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_samples_map" target="D.ontology_expression_data_sample_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_types">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_ids" target="F.get_expression_sample_ids_by_series_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.wild_type_only" target="F.get_expression_sample_ids_by_genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.data_expression_levels_for_sample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.data_expression_levels_for_sample" target="D.label_data_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_genome_id" target="D.Strain">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.denominator_sample_comparison" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.compare_samples_vs_default_controls" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.feature_sample_measurement_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.compare_samples_vs_the_average">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_data_warnings" target="D.GenomeDataGSM">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data_by_series_ids" target="D.series_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_series_external_source_ids" target="D.series_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_ids" target="F.get_expression_data_by_samples_and_features">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqDifferentialExpressionFile" target="D.RNASeqDifferentialExpressionSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_on_off_calls" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.person_ids" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_ontology_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_series_ids_by_series_external_source_ids" target="D.series_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experimental_unit_id" target="D.experimental_unit_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.expression_data_samples_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experimental_unit_ids" target="F.get_expression_sample_ids_by_experimental_unit_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experimental_unit_id" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.sample_ids_averaged_from">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.genome_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_id" target="D.series_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_samples_map" target="D.strain_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Strain" target="D.ExpressionPlatform">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_series_ids" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experimental_unit_ids" target="F.get_expression_samples_data_by_experimental_unit_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.label_data_mapping" target="F.compare_samples">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.RNASeqSampleMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.samples_float_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.wild_type_only" target="F.get_expression_sample_ids_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_series_titles" target="D.series_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.comparison_denominator_label" target="D.denominator_sample_comparison">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_original_log2_medians">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data_by_genome_ids" target="D.genome_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.external_source_ids" target="F.get_expression_sample_ids_by_sample_external_source_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_GEO_GSE" target="D.GseObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data" target="D.expression_data_samples_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_experiment_meta_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.data_expression_levels_for_sample" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_samples_data_by_strain_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_types" target="D.samples_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.strain_id" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_genome_id" target="D.genome_expression_sample_ids_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.samples_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.wild_type_only" target="F.get_expression_samples_data_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_molecules">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_id" target="D.ontology_expression_data_sample_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_sample_id" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_id" target="D.shock_ref">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_float_data_table_by_samples_and_features" target="D.FloatDataTable">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_data_by_feature_ids" target="D.feature_sample_measurement_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_id" target="D.series_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FullMeasurement" target="D.gsm_data_set">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_ids" target="F.get_expression_series_titles">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.gsm_data">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_sample_ids_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_expression_sample_ids_map" target="D.ExpressionSeries">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Strain" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_id" target="D.series_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_titles" target="D.samples_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.external_source_ids" target="F.get_expression_sample_ids_by_platform_external_source_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_platform_external_source_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_data_set" target="D.GenomeDataGSM">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.compare_samples_vs_the_average">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_external_source_ids" target="D.samples_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_sample_ids" target="D.ExpressionReplicateGroup">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_strain_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_ids" target="F.get_expression_samples_data_by_series_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_descriptions" target="D.samples_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_comparison_mapping" target="F.get_top_changers">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_definition" target="D.SampleAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_comparison_mapping" target="F.get_on_off_calls">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_sample_id" target="D.expression_sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.measurement" target="D.data_expression_levels_for_sample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experiment_meta_id" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="F.get_expression_sample_ids_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_id" target="D.gsm_data_set">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_ref" target="D.RNASeqSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqSample" target="D.RNASeqSamplesSet">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_email" target="D.contact_people">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="D.genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_sample_external_source_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Person" target="D.persons">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ContactPerson" target="D.contact_people">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experiment_meta_ids" target="F.get_expression_samples_data_by_experiment_meta_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_series_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_sample_characteristics" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_data_by_samples_and_features" target="D.label_data_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_annotation_id" target="D.SampleAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_sample_ids_by_genome_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_series_summaries" target="D.series_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.genome_id" target="F.get_expression_samples_data_by_ontology_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experiment_meta_ids" target="F.get_expression_sample_ids_by_experiment_meta_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqDifferentialExpressionSet" target="D.RNASeqDifferentialExpression">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.label_data_mapping" target="F.compare_samples">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_molecules" target="D.samples_string_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_top_changers" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_data_by_strain_ids" target="D.strain_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_id" target="D.sample_comparison_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.feature_ids" target="F.get_expression_data_by_feature_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.contact_last_name" target="D.ContactPerson">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_ids" target="F.get_expression_series_designs">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_sample_ids" target="D.genome_expression_sample_ids_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.expression_data_samples_map" target="D.experimental_unit_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_ids" target="F.get_expression_samples_descriptions">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.shock_ref" target="D.RNASeqSampleAlignment">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_annotations" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ontology_id" target="D.SampleAnnotation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.strain_ids" target="F.get_expression_samples_data_by_strain_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.ExpressionOntologyTerm" target="D.expression_ontology_terms">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.series_ids" target="D.ExpressionDataSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RNASeqSampleMetaData" target="D.RNASeqSampleAlignment">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.Protocol" target="D.ExpressionSample">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_data_by_feature_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_samples_original_log2_medians" target="D.samples_float_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_expression_sample_ids_by_experimental_unit_ids" target="D.sample_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.experimental_unit_expression_data_samples_mapping" target="D.experiment_meta_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.sample_type" target="F.get_expression_sample_ids_by_strain_ids">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.strain_expression_data_samples_mapping" target="D.genome_expression_data_samples_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.measurement" target="D.sample_measurement_mapping">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_data" target="D.GsmObject">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.gsm_data_errors" target="D.GenomeDataGSM">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="F.extract_node_names">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>extract_node_names</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.html_file">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>html_file</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.timestamp">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>timestamp</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.boolean">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>boolean</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.TreeMetaData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>TreeMetaData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_leaf_to_feature_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_leaf_to_feature_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_tree">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_tree</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.filter_abundance_profile">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>filter_abundance_profile</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.replace_node_names">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>replace_node_names</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.tree">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>tree</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.merge_zero_distance_leaves">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>merge_zero_distance_leaves</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_node_count">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_node_count</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.alignment">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>alignment</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AbundanceParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AbundanceParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.draw_html_tree">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>draw_html_tree</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.abundance_profile">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>abundance_profile</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.kbase_id">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>kbase_id</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.compute_abundance_profile">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>compute_abundance_profile</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AbundanceResult">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AbundanceResult</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.FilterParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>FilterParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_leaf_count">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_leaf_count</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_leaf_to_protein_map">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_leaf_to_protein_map</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.abundance_data">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>abundance_data</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.extract_leaf_node_names">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>extract_leaf_node_names</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.remove_node_names_and_simplify">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>remove_node_names_and_simplify</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.get_alignment">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>get_alignment</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.newick_tree">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>newick_tree</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.AlignmentMetaData">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>AlignmentMetaData</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.abundance_profile" target="D.abundance_data">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.get_leaf_count">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.merge_zero_distance_leaves" target="D.newick_tree">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="F.get_tree">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.draw_html_tree" target="D.html_file">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.replace_node_names">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="D.TreeMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.abundance_data" target="F.filter_abundance_profile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.TreeMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.compute_abundance_profile" target="D.AbundanceResult">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.draw_html_tree">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.replace_node_names" target="D.newick_tree">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="F.get_alignment">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.FilterParams" target="F.filter_abundance_profile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.extract_leaf_node_names">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.AbundanceParams" target="F.compute_abundance_profile">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.filter_abundance_profile" target="D.abundance_data">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.merge_zero_distance_leaves">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.timestamp" target="D.AlignmentMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.extract_node_names">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.remove_node_names_and_simplify">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.remove_node_names_and_simplify" target="D.newick_tree">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.FilterParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.newick_tree" target="F.get_node_count">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="F.get_leaf_to_feature_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_tree" target="D.tree">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="D.AlignmentMetaData">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="F.get_leaf_to_protein_map">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.boolean" target="D.FilterParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.get_alignment" target="D.alignment">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.kbase_id" target="D.AbundanceParams">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

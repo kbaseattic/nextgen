@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="F.calculate_kinship_matrix">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>calculate_kinship_matrix</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.GeneList2NetworksParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>GeneList2NetworksParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.RunGWASParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>RunGWASParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.run_gwas">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>run_gwas</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.gwas_genelist_to_networks">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>gwas_genelist_to_networks</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Variations2GenesParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Variations2GenesParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.PrepareVariationParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>PrepareVariationParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.genelist_to_networks">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>genelist_to_networks</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.prepare_variation">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>prepare_variation</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.variations_to_genes">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>variations_to_genes</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.CalculateKinshipMatrixParams">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>CalculateKinshipMatrixParams</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="D.Variations2GenesParams" target="F.variations_to_genes">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GeneList2NetworksParams" target="F.genelist_to_networks">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.PrepareVariationParams" target="F.prepare_variation">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.RunGWASParams" target="F.run_gwas">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.CalculateKinshipMatrixParams" target="F.calculate_kinship_matrix">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.GeneList2NetworksParams" target="F.gwas_genelist_to_networks">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>

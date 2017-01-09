@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns/graphml' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd'
+xmlns:y='http://www.yworks.com/xml/graphml'>
+<key id='d0' for='node' yfiles.type='nodegraphics'/>
+<key id='d2' for='edge' yfiles.type='edgegraphics'/>
+<graph edgedefault="directed">
+<node id="F.build_first_neighbor_network_limted_by_strength">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>build_first_neighbor_network_limted_by_strength</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.taxon2datasets">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>taxon2datasets</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.taxon">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>taxon</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.dataset_source2datasets">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>dataset_source2datasets</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.dataset_source_ref">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>dataset_source_ref</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.build_first_neighbor_network">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>build_first_neighbor_network</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.build_internal_network">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>build_internal_network</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.network_type">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>network_type</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.build_internal_network_limited_by_strength">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>build_internal_network_limited_by_strength</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="D.Network">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#CCCCFF' transparent='false'/><y:NodeLabel>Network</y:NodeLabel></y:ShapeNode></data>
+</node>
+<node id="F.network_type2datasets">
+<data key="d0"><y:ShapeNode><y:Shape type='rectangle'/><y:Fill color='#FF5555' transparent='false'/><y:NodeLabel>network_type2datasets</y:NodeLabel></y:ShapeNode></data>
+</node>
+<edge source="F.build_internal_network" target="D.Network">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.build_first_neighbor_network" target="D.Network">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.build_first_neighbor_network_limted_by_strength" target="D.Network">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.network_type" target="F.network_type2datasets">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="F.build_internal_network_limited_by_strength" target="D.Network">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.taxon" target="F.taxon2datasets">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+<edge source="D.dataset_source_ref" target="F.dataset_source2datasets">
+<data key="d2"><y:PolyLineEdge><y:Arrows source='none' target='delta'/></y:PolyLineEdge></data>
+</edge>
+</graph>
+</graphml>
